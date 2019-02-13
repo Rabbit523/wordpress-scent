@@ -1,0 +1,9 @@
+.hide_in_vc_editor {
+	display: none;
+}
+.vc_element-icon.shortcode_mg_brands_list,
+.vc_element-icon.shortcode_mg_brands_slider,
+.vc_element-icon.shortcode_products_by_brand {
+    background-image: url("../img/mgwc-icon.png");
+    background-position: center center;
+}

@@ -1,0 +1,148 @@
+/* Reset */
+.mgwoocommercebrands * {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	line-height: 1.2em;
+}
+/* Brand product page styles */
+.mg-brand-wrapper.mg-brand-wrapper-product.mg-brand-image a {
+	margin-right: 10px;
+}
+.mg-brand-wrapper.mg-brand-wrapper-product.mg-brand-image {
+	margin-bottom: 20px;
+}
+/* Brand product category styles */
+.mg-brand-wrapper.mg-brand-wrapper-category {
+    display: block;
+    margin-top: 10px;
+}
+/* Brands listing shortcode */
+.mgwoocommercebrands.brands-listing > ul > li.brand-by-letter > h3 {
+	text-transform: uppercase;
+}
+.mgwoocommercebrands.brands-listing > ul {
+	padding-left: 0;
+}
+.mgwoocommercebrands.brands-listing > ul > li > ul {
+	padding-left: 0;
+	margin: 0;
+	padding-right: 20px;
+}
+.mgwoocommercebrands.brands-listing > ul > li > ul > li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+.mgwoocommercebrands.brands-listing > ul > li > ul > li img {
+	display: block;
+	background: transparent;
+	border: none;
+	padding: 0;
+}
+.mgwoocommercebrands.brands-listing > ul > li > ul > li  a + a {
+	margin-top: 10px;
+	display: inline-block;
+}
+.mgwoocommercebrands.brands-listing > ul > li > ul > li .description {
+	color: #666666;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.mgwoocommercebrands.brands-listing > ul > li.brand-by-letter {
+	list-style: none;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+.mgwoocommercebrands.brands-listing .brands-abc-filter {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.mgwoocommercebrands.brands-listing .brands-abc-filter a {
+	display: inline-block;
+	margin: 0 5px;
+}
+/* Brands slider shortcode */
+.mgwoocommercebrands.brands-slider > ul {
+	list-style: none;
+	padding: 0;
+}
+.mgwoocommercebrands.brands-slider > ul li {
+	text-align: center;
+	padding: 20px 0;
+	min-height: 32px;
+	border: 1px solid #e8e5e5;
+	margin-right: 5px;
+	margin-left: 5px;
+	background: #ffffff;
+}
+.mgwoocommercebrands.brands-slider > ul li > a:first-child {
+	display: block;
+}
+.mgwoocommercebrands.brands-slider > ul li > a {
+	display: inline;
+}
+.mgwoocommercebrands.brands-slider > ul li > a > img {
+	border: none;
+	padding: 0;
+	display: inline;
+	background: transparent;
+}
+.mgwoocommercebrands.brands-slider > .owl-theme .owl-controls .owl-buttons div {
+    background: none no-repeat scroll center center #535353;
+    border-radius: 0;
+    height: 32px;
+    opacity: 0.5;
+    width: 32px;
+}
+.mgwoocommercebrands.brands-slider > .owl-theme .owl-controls .owl-buttons div.owl-prev {
+    background-image: url("../img/nav-prev-invert.png");
+    left: 16px;
+    margin-top: -16px;
+    position: absolute;
+    top: 50%;
+}
+.mgwoocommercebrands.brands-slider > .owl-theme .owl-controls .owl-buttons div.owl-next {
+    background-image: url("../img/nav-next-invert.png");
+    margin-top: -16px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+}
+.mgwoocommercebrands.brands-slider > .owl-theme .owl-controls .owl-buttons div:hover {
+    opacity: 1;
+}
+/* Widgets */
+.widget_mgwoocommercebrands ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.widget_mgwoocommercebrands ul li {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.widget_mgwoocommercebrands ul li .small.count {
+    float: right;
+    font-size: 1em;
+    margin-left: 6px;
+}
+/* Responsive styles */
+@media (max-width: 1024px) { 
+	.mgwoocommercebrands.brands-listing > ul > li.brand-by-letter {
+		width: 33.333%;
+	}
+}
+@media (max-width: 767px) {
+	.mgwoocommercebrands.brands-listing > ul > li.brand-by-letter {
+		width: 50%;
+	}
+}
+@media (max-width: 480px)  {
+	.mgwoocommercebrands.brands-listing > ul > li.brand-by-letter {
+		width: 100%;
+	}
+	.mgwoocommercebrands.brands-listing > ul > li > ul > li img { 
+		max-width: 100%;
+	}
+}

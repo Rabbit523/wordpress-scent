@@ -1,0 +1,26 @@
+@charset 'utf-8';
+/*
+Theme Name: Organic Beauty Child
+Theme URI: http://organic-beauty.themerex.net/
+Description: Organic Beauty - Multipurpose and Multiskin Responsive Wordpress theme
+Author: themerex
+Author URI: http://themerex.net/
+Template: organic-beauty
+Version: 1.0
+Tags: one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,flexible-header,buddypress,custom-background,custom-colors,custom-header,custom-menu,editor-style,featured-image-header,featured-images,front-page-post-form,full-width-template,microformats,post-formats,sticky-post,theme-options,threaded-comments,translation-ready,holiday
+*/
+
+
+@import url("../organic-beauty/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+a, button {
+	transition: none;
+}
+
+.scheme_original .top_panel_bottom {
+	background: #f5f5f5;
+}

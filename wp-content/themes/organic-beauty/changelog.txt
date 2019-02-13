@@ -1,0 +1,19 @@
+Version 1.3
+    * Fix "Color scheme" in Customize
+    * Plugins updated
+
+Version 1.2.1
+    * Fix shop product hover style
+
+Version 1.2
+    * Plugins updated
+    * Compatibility with PHP7
+    * Add WooCommerce ajax support
+
+Version 1.1
+	* The theme is now compatible with version WooCommerce 3.0 and higher.
+	* Fixed theme to work with languages files
+	* Fixed product basket scroll
+
+Version 1.0
+	Release (v 3.9.1)

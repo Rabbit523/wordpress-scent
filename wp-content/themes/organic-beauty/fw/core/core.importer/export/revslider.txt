@@ -1,0 +1,2 @@
+home_slider
+home_slider_2

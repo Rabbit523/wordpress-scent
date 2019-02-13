@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Nets Payment Gateway v1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-21 18:08+0530\n"
+"PO-Revision-Date: 2013-09-17 20:55+0100\n"
+"Last-Translator: Nickolass Jensen <nj@nettpilot.no>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:90
+msgid "Enable/Disable"
+msgstr "Aktivera/Inaktivera"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:92
+msgid "Enable Nets Payment Gateway"
+msgstr "Activera Nets Payment Gateway"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:96
+msgid "Title"
+msgstr "Titel"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:98
+msgid "This controls the title which the user sees during checkout."
+msgstr "Detta kontrollerar titeln som kunden ser i kassan."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:99
+msgid "Nets"
+msgstr "Nets"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:102
+msgid "Description"
+msgstr "Beskrivning"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:104
+msgid "This controls the description which the user sees during checkout."
+msgstr "Detta kontrollerar beskrivningen som kunden ser i kassan."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:105
+msgid "Pay via nets using credit card or bank transfer."
+msgstr "Betala via Nets med kreditkort eller banköverföring."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:108
+msgid "Nets Merchant ID "
+msgstr "Nets säljar-ID "
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:110
+msgid ""
+"Please enter your nets Merchant ID; this is needed in order to take payment."
+msgstr "Ange din Nets säljar-ID, vilket behövs för att ta betalningen."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:114
+msgid "Nets Token"
+msgstr "Nets Token"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:116
+msgid "Please enter your Nets Token."
+msgstr "Ange din Nets Token."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:120
+msgid "Language"
+msgstr "Språk"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:123
+msgid ""
+"Set the language in which the page will be opened when the customer is "
+"redirected to nets."
+msgstr ""
+"Ange vilket språk sidan kommer att öppnas i när kunden omdirigeras till Nets."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:133
+msgid "Test Mode"
+msgstr "Test Mode"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:135
+msgid "Enable nets Test Mode. "
+msgstr "Activera Nets Test Mode."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:139
+msgid "Debug"
+msgstr "Felsök"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:141
+msgid "Enable logging (<code>woocommerce/logs/nets.txt</code>)"
+msgstr "Aktivera loggning (<code>woocommerce/logs/nets.txt</code>)"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:158
+msgid "Nets Payment Gatweway"
+msgstr "Nets Payment Gatweway"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:159
+msgid ""
+"Nets Payment Gateway works by redirecting user to Nets payment interface to "
+"complete the transaction."
+msgstr ""
+"Nets Payment Gatweway fungerar genom att omdirigera användare till Nets "
+"betalnings gränssnitt för att slutföra transaktionen."
+
+# @ woocommerce
+#: woocommerce-gateway-nets.php:171
+msgid "NETS does not support your store currency."
+msgstr "Nets stöder inte din valuta."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:336
+msgid "Unable to authenticate merchant."
+msgstr "Kunde inte verifiera köpman."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:359
+msgid "Nets is not configured properly, Please choose another payment method."
+msgstr "Nets är inte rätt konfigurerad, välj en annan betalningsmetod."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:378
+msgid "Thank you for your order, Unable to pay with NETS."
+msgstr "Tack för din beställning, inte möjligt att betala med Nets."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:441
+msgid "Unable to make payment, as your transaction is cancelled."
+msgstr "Inte möjligt att slutföra betalningen, din transaktion annulleras."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:485
+msgid "NETS payment completed. NETS transaction number: "
+msgstr "Nets betalningen är genomförd. Nets transaktionsnummer:"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:498 woocommerce-gateway-nets.php:554
+#: woocommerce-gateway-nets.php:636
+msgid "Unable to make payment."
+msgstr "Inte möjligt att genomföra betalningen."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:606
+msgid "Unable to make payment, Auth Reg Comp Failure / insufficient funds."
+msgstr ""
+"Inte möjligt att slutföra betalningen, Auth Reg Comp Failure / inte "
+"tillräckligt med medel."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:609
+msgid "Invalid card number."
+msgstr "Invalid card number."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:612
+msgid "Transaction not found."
+msgstr "Ttransaktionen kan inte hittas."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:615
+msgid "KID invalid or Field missing PAN."
+msgstr "KID är ogiltig eller fält utan PAN."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:618
+msgid "Original transaction rejected."
+msgstr "Ursprungliga transaktionen avvisas."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:621
+msgid "Transaction already reversed."
+msgstr "Transaktionen är redan reverserad."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:624
+msgid "Internal failure."
+msgstr "Intern fel."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:630
+msgid "Refused by Issuer."
+msgstr "Avvisats av Utfärdare."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:633
+msgid "Denied by 3D Secure."
+msgstr "Avvisats av 3D Secure."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:127
+msgid "Auto Capture"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:129
+msgid "Enable nets auto Capture of Payment "
+msgstr ""

@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate WooCommerce Brands plugin\n"
+"POT-Creation-Date: 2014-11-06 12:45+0200\n"
+"PO-Revision-Date: 2014-11-06 12:45+0200\n"
+"Last-Translator: dedalx <dedalx.rus@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mgwoocommercebrands-admin.php:69
+msgid "Brands settings"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:106
+msgid "General Options"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:111
+msgid "Brand name show on"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:115
+msgid "Please select where you want show Brand name."
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:117
+msgid "Both categories and product detail page"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:118
+msgid "Only categories "
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:119
+msgid "Only product detail"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:123
+msgid "Brand title"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:127
+msgid "Leave empty if you dont want to show brand title before brand name(s)"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:129 mgwoocommercebrands-admin.php:141
+msgid "Show as brand(s) title"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:130 mgwoocommercebrands-admin.php:142
+msgid "Show as brand(s) image"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:135
+msgid "Brand display type on product detail page"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:139
+msgid "Please check if you want to see brand image instead of title"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:148
+msgid "Product Details Page"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:153
+msgid "Brand display position"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:157
+msgid "Please choose postion where brand show on product details page."
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:159
+msgid "Above tabs area"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:160
+msgid "Below tabs area"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:161
+msgid "Above short description"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:162
+msgid "Below short description"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:163
+msgid "Above Add to cart"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:164
+msgid "Below Add to cart"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:165
+msgid "Above Categories list"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:166
+msgid "Below Categories list"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:172
+msgid "Product Category"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:177
+msgid "Brand display position on category"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:181
+msgid "Please choose postion where brand show on category products."
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:183
+msgid "Above price"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:184
+msgid "Above title"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:185
+msgid "Below title"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:186
+msgid "Above Add to Cart"
+msgstr ""
+
+#: mgwoocommercebrands-admin.php:187
+msgid "Below Add to Cart"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:44
+msgid "Title:"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:47
+msgid "Display type:"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:49
+msgid "Text"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:50
+msgid "Image"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:53
+msgid "Hide empty brands:"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:55
+#: mgwoocommercebrands-widget-brands-list.php:61
+msgid "No"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:56
+#: mgwoocommercebrands-widget-brands-list.php:62
+msgid "Yes"
+msgstr ""
+
+#: mgwoocommercebrands-widget-brands-list.php:59
+msgid "Show product count (for Text brands display):"
+msgstr ""
+
+#: mgwoocommercebrands.php:101
+msgid "Search Brands"
+msgstr ""
+
+#: mgwoocommercebrands.php:102
+msgid "All Brands"
+msgstr ""
+
+#: mgwoocommercebrands.php:103
+msgid "Parent Brand"
+msgstr ""
+
+#: mgwoocommercebrands.php:104
+msgid "Parent Brands:"
+msgstr ""
+
+#: mgwoocommercebrands.php:105
+msgid "Edit Brands"
+msgstr ""
+
+#: mgwoocommercebrands.php:106
+msgid "Update Brands"
+msgstr ""
+
+#: mgwoocommercebrands.php:107
+msgid "Add New Brand"
+msgstr ""
+
+#: mgwoocommercebrands.php:108
+msgid "New Brand Name"
+msgstr ""
+
+#: mgwoocommercebrands.php:109
+msgid "Brands"
+msgstr ""
+
+#: mgwoocommercebrands.php:144
+msgid "Brand Logo image "
+msgstr ""
+
+#: mgwoocommercebrands.php:334
+msgid "Brand:"
+msgstr ""
+
+#: mgwoocommercebrands.php:450
+msgid "Settings"
+msgstr ""
+
+#: mgwoocommercebrands.php:459
+msgid "Visit Premium Customer Support Ticket System"
+msgstr ""
+
+#: mgwoocommercebrands.php:459
+msgid "Premium Support"
+msgstr ""
+
+#: mgwoocommercebrands.php:460
+msgid "Premium WordPress themes"
+msgstr ""
+
+#: mgwoocommercebrands.php:817
+msgid "Products by Brand"
+msgstr ""
+
+#: mgwoocommercebrands.php:818 mgwoocommercebrands.php:891
+#: mgwoocommercebrands.php:982
+msgid "Products"
+msgstr ""
+
+#: mgwoocommercebrands.php:819
+msgid "Display WooCommerce products"
+msgstr ""
+
+#: mgwoocommercebrands.php:830 mgwoocommercebrands.php:994
+msgid "Title"
+msgstr ""
+
+#: mgwoocommercebrands.php:840
+msgid "Brand"
+msgstr ""
+
+#: mgwoocommercebrands.php:849
+msgid "Number of Products"
+msgstr ""
+
+#: mgwoocommercebrands.php:859
+msgid "Order By"
+msgstr ""
+
+#: mgwoocommercebrands.php:860
+msgid "Description for Order By."
+msgstr ""
+
+#: mgwoocommercebrands.php:877
+msgid "Order"
+msgstr ""
+
+#: mgwoocommercebrands.php:878
+msgid "Description for Order."
+msgstr ""
+
+#: mgwoocommercebrands.php:890
+msgid "Brands List"
+msgstr ""
+
+#: mgwoocommercebrands.php:892
+msgid "Display Brands list"
+msgstr ""
+
+#: mgwoocommercebrands.php:903
+msgid "Display ABC filter (Work with 'Display brands later = Yes')"
+msgstr ""
+
+#: mgwoocommercebrands.php:916
+msgid "Display brands laters"
+msgstr ""
+
+#: mgwoocommercebrands.php:929 mgwoocommercebrands.php:1038
+msgid "Display type"
+msgstr ""
+
+#: mgwoocommercebrands.php:943
+msgid "Show brand description"
+msgstr ""
+
+#: mgwoocommercebrands.php:956 mgwoocommercebrands.php:1051
+msgid "Hide empty brands"
+msgstr ""
+
+#: mgwoocommercebrands.php:969
+msgid "Show items count in brand"
+msgstr ""
+
+#: mgwoocommercebrands.php:981
+msgid "Brands Slider"
+msgstr ""
+
+#: mgwoocommercebrands.php:983
+msgid "Display Brands Slider"
+msgstr ""
+
+#: mgwoocommercebrands.php:1003
+msgid "Slider auto play"
+msgstr ""
+
+#: mgwoocommercebrands.php:1016
+msgid "Items in slider"
+msgstr ""
+
+#: mgwoocommercebrands.php:1025
+msgid "Show navigation arrows"
+msgstr ""
+
+#: mgwoocommercebrands.php:1064
+msgid "Show items count in brand title"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:250
+msgid "Delete this image"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:250
+#: include/Tax-meta-class/Tax-meta-class.php:882
+msgid "Delete"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:357
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:582
+#: include/Tax-meta-class/Tax-meta-class.php:629
+msgid "Remove"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:595
+msgid "Add"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:878
+msgid "Uploaded files"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:889
+msgid "Upload new files"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:895
+msgid "Add more files"
+msgstr ""
+
+#: include/Tax-meta-class/Tax-meta-class.php:947
+msgid "Select a color"
+msgstr ""

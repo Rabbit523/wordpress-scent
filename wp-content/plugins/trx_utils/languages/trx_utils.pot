@@ -1,0 +1,642 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeREX Utilities\n"
+"POT-Creation-Date: 2016-10-07 13:18+0300\n"
+"PO-Revision-Date: 2015-10-06 14:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: ThemeREX\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n;_n_noop;_x;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/plugin.files.php:302
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Put contents to the file \"%s\" failed"
+msgstr ""
+
+#: includes/plugin.files.php:335
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get contents from the file \"%s\" failed"
+msgstr ""
+
+#: includes/plugin.files.php:352
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get rows from the file \"%s\" failed"
+msgstr ""
+
+#: includes/plugin.users.php:41 templates/tpl.login.php:30
+msgid "Login"
+msgstr ""
+
+#: includes/plugin.users.php:55
+msgid "Register"
+msgstr ""
+
+#: includes/plugin.users.php:68
+msgid "The Login field can't be empty"
+msgstr ""
+
+#: includes/plugin.users.php:69
+msgid "The Login field is too long"
+msgstr ""
+
+#: includes/plugin.users.php:70
+msgid "The password can't be empty and shorter then 4 characters"
+msgstr ""
+
+#: includes/plugin.users.php:71
+msgid "The password is too long"
+msgstr ""
+
+#: includes/plugin.users.php:72
+msgid "Login success! The page will be reloaded in 3 sec."
+msgstr ""
+
+#: includes/plugin.users.php:73
+msgid "Login failed!"
+msgstr ""
+
+#: includes/plugin.users.php:74
+msgid "Please, read and check 'Terms and Conditions'"
+msgstr ""
+
+#: includes/plugin.users.php:75
+msgid "E-mail address is too long"
+msgstr ""
+
+#: includes/plugin.users.php:76
+msgid "E-mail address is invalid"
+msgstr ""
+
+#: includes/plugin.users.php:77
+msgid "The passwords in both fields are not equal"
+msgstr ""
+
+#: includes/plugin.users.php:78
+msgid "Registration success! Please log in!"
+msgstr ""
+
+#: includes/plugin.users.php:79
+msgid "Registration failed!"
+msgstr ""
+
+#: includes/plugin.users.php:110
+#, php-format
+msgid "Site %s - New user registration: %s"
+msgstr ""
+
+#: includes/plugin.users.php:111
+msgid "New registration:"
+msgstr ""
+
+#: includes/plugin.users.php:112 includes/plugin.users.php:123
+msgid "Name:"
+msgstr ""
+
+#: includes/plugin.users.php:113 includes/plugin.users.php:124
+msgid "E-mail:"
+msgstr ""
+
+#: includes/plugin.users.php:121
+#, php-format
+msgid "Welcome to the \"%s\""
+msgstr ""
+
+#: includes/plugin.users.php:122
+msgid "Your registration data:"
+msgstr ""
+
+#: includes/plugin.users.php:125
+msgid "Password:"
+msgstr ""
+
+#: includes/support.attachment.php:18 includes/support.attachment.php:28
+msgid "Media Folders"
+msgstr ""
+
+#: includes/support.attachment.php:19
+msgid "Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:20
+msgid "Search Media Folders"
+msgstr ""
+
+#: includes/support.attachment.php:21
+msgid "All Media Folders"
+msgstr ""
+
+#: includes/support.attachment.php:22
+msgid "Parent Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:23
+msgid "Parent Media Folder:"
+msgstr ""
+
+#: includes/support.attachment.php:24
+msgid "Edit Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:25
+msgid "Update Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:26
+msgid "Add New Media Folder"
+msgstr ""
+
+#: includes/support.attachment.php:27
+msgid "New Media Folder Name"
+msgstr ""
+
+#: includes/support.clients.php:15 includes/support.clients.php:18
+#: includes/support.clients.php:20
+msgid "Clients"
+msgstr ""
+
+#: includes/support.clients.php:16
+msgid "Clients Description"
+msgstr ""
+
+#: includes/support.clients.php:19
+msgid "Client"
+msgstr ""
+
+#: includes/support.clients.php:21 includes/support.courses.php:23
+#: includes/support.courses.php:65 includes/support.matches.php:21
+#: includes/support.matches.php:62 includes/support.menuitems.php:21
+#: includes/support.services.php:21 includes/support.team.php:21
+#: includes/support.testimonials.php:21
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/support.clients.php:22
+msgid "All Clients"
+msgstr ""
+
+#: includes/support.clients.php:23 includes/support.courses.php:25
+#: includes/support.courses.php:67 includes/support.matches.php:23
+#: includes/support.matches.php:64 includes/support.menuitems.php:23
+#: includes/support.services.php:23 includes/support.team.php:23
+#: includes/support.testimonials.php:23
+msgid "View Item"
+msgstr ""
+
+#: includes/support.clients.php:24
+msgid "Add New Client"
+msgstr ""
+
+#: includes/support.clients.php:25 includes/support.courses.php:27
+#: includes/support.courses.php:69 includes/support.matches.php:25
+#: includes/support.matches.php:66 includes/support.menuitems.php:25
+#: includes/support.services.php:25 includes/support.team.php:25
+#: includes/support.testimonials.php:25
+msgid "Add New"
+msgstr ""
+
+#: includes/support.clients.php:26 includes/support.courses.php:28
+#: includes/support.courses.php:70 includes/support.matches.php:26
+#: includes/support.matches.php:67 includes/support.menuitems.php:26
+#: includes/support.services.php:26 includes/support.team.php:26
+#: includes/support.testimonials.php:26
+msgid "Edit Item"
+msgstr ""
+
+#: includes/support.clients.php:27 includes/support.courses.php:29
+#: includes/support.courses.php:71 includes/support.matches.php:27
+#: includes/support.matches.php:68 includes/support.menuitems.php:27
+#: includes/support.services.php:27 includes/support.team.php:27
+#: includes/support.testimonials.php:27
+msgid "Update Item"
+msgstr ""
+
+#: includes/support.clients.php:28 includes/support.courses.php:30
+#: includes/support.courses.php:72 includes/support.matches.php:28
+#: includes/support.matches.php:69 includes/support.menuitems.php:28
+#: includes/support.services.php:28 includes/support.team.php:28
+#: includes/support.testimonials.php:28
+msgid "Search Item"
+msgstr ""
+
+#: includes/support.clients.php:29 includes/support.courses.php:31
+#: includes/support.courses.php:73 includes/support.matches.php:29
+#: includes/support.matches.php:70 includes/support.menuitems.php:29
+#: includes/support.services.php:29 includes/support.team.php:29
+#: includes/support.testimonials.php:29
+msgid "Not found"
+msgstr ""
+
+#: includes/support.clients.php:30 includes/support.courses.php:32
+#: includes/support.courses.php:74 includes/support.matches.php:30
+#: includes/support.matches.php:71 includes/support.menuitems.php:30
+#: includes/support.services.php:30 includes/support.team.php:30
+#: includes/support.testimonials.php:30
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/support.clients.php:67 includes/support.clients.php:77
+msgid "Clients Group"
+msgstr ""
+
+#: includes/support.clients.php:68 includes/support.matches.php:109
+#: includes/support.matches.php:135 includes/support.menuitems.php:68
+#: includes/support.services.php:68 includes/support.team.php:68
+#: includes/support.testimonials.php:65
+msgid "Group"
+msgstr ""
+
+#: includes/support.clients.php:69 includes/support.courses.php:112
+#: includes/support.matches.php:110 includes/support.matches.php:136
+#: includes/support.menuitems.php:69 includes/support.services.php:69
+#: includes/support.team.php:69 includes/support.testimonials.php:66
+msgid "Search Groups"
+msgstr ""
+
+#: includes/support.clients.php:70 includes/support.courses.php:113
+#: includes/support.matches.php:111 includes/support.matches.php:137
+#: includes/support.menuitems.php:70 includes/support.services.php:70
+#: includes/support.team.php:70 includes/support.testimonials.php:67
+msgid "All Groups"
+msgstr ""
+
+#: includes/support.clients.php:71 includes/support.courses.php:114
+#: includes/support.matches.php:112 includes/support.matches.php:138
+#: includes/support.menuitems.php:71 includes/support.services.php:71
+#: includes/support.team.php:71 includes/support.testimonials.php:68
+msgid "Parent Group"
+msgstr ""
+
+#: includes/support.clients.php:72 includes/support.courses.php:115
+#: includes/support.matches.php:113 includes/support.matches.php:139
+#: includes/support.menuitems.php:72 includes/support.services.php:72
+#: includes/support.team.php:72 includes/support.testimonials.php:69
+msgid "Parent Group:"
+msgstr ""
+
+#: includes/support.clients.php:73 includes/support.courses.php:116
+#: includes/support.matches.php:114 includes/support.matches.php:140
+#: includes/support.menuitems.php:73 includes/support.services.php:73
+#: includes/support.team.php:73 includes/support.testimonials.php:70
+msgid "Edit Group"
+msgstr ""
+
+#: includes/support.clients.php:74 includes/support.courses.php:117
+#: includes/support.matches.php:115 includes/support.matches.php:141
+#: includes/support.menuitems.php:74 includes/support.services.php:74
+#: includes/support.team.php:74 includes/support.testimonials.php:71
+msgid "Update Group"
+msgstr ""
+
+#: includes/support.clients.php:75 includes/support.courses.php:118
+#: includes/support.matches.php:116 includes/support.matches.php:142
+#: includes/support.menuitems.php:75 includes/support.services.php:75
+#: includes/support.team.php:75 includes/support.testimonials.php:72
+msgid "Add New Group"
+msgstr ""
+
+#: includes/support.clients.php:76 includes/support.courses.php:119
+#: includes/support.matches.php:117 includes/support.matches.php:143
+#: includes/support.menuitems.php:76 includes/support.services.php:76
+#: includes/support.team.php:76 includes/support.testimonials.php:73
+msgid "New Group Name"
+msgstr ""
+
+#: includes/support.courses.php:17 includes/support.courses.php:21
+msgid "Course item"
+msgstr ""
+
+#: includes/support.courses.php:18
+msgid "Course Description"
+msgstr ""
+
+#: includes/support.courses.php:20 includes/support.courses.php:22
+msgid "Courses"
+msgstr ""
+
+#: includes/support.courses.php:24
+msgid "All Courses"
+msgstr ""
+
+#: includes/support.courses.php:26
+msgid "Add New Course item"
+msgstr ""
+
+#: includes/support.courses.php:59 includes/support.courses.php:63
+msgid "Lesson"
+msgstr ""
+
+#: includes/support.courses.php:60
+msgid "Lesson Description"
+msgstr ""
+
+#: includes/support.courses.php:62 includes/support.courses.php:64
+msgid "Lessons"
+msgstr ""
+
+#: includes/support.courses.php:66
+msgid "All lessons"
+msgstr ""
+
+#: includes/support.courses.php:68
+msgid "Add New lesson"
+msgstr ""
+
+#: includes/support.courses.php:110 includes/support.courses.php:120
+msgid "Courses Groups"
+msgstr ""
+
+#: includes/support.courses.php:111
+msgid "Courses Group"
+msgstr ""
+
+#: includes/support.courses.php:137 includes/support.courses.php:147
+msgid "Courses Tags"
+msgstr ""
+
+#: includes/support.courses.php:138
+msgid "Courses Tag"
+msgstr ""
+
+#: includes/support.courses.php:139
+msgid "Search Tags"
+msgstr ""
+
+#: includes/support.courses.php:140
+msgid "All Tags"
+msgstr ""
+
+#: includes/support.courses.php:141
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/support.courses.php:142
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/support.courses.php:143
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/support.courses.php:144
+msgid "Update Tag"
+msgstr ""
+
+#: includes/support.courses.php:145
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/support.courses.php:146
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/support.matches.php:15 includes/support.matches.php:18
+#: includes/support.matches.php:19 includes/support.matches.php:20
+msgid "Matches"
+msgstr ""
+
+#: includes/support.matches.php:16
+msgid "Matches Description"
+msgstr ""
+
+#: includes/support.matches.php:22
+msgid "All Matches"
+msgstr ""
+
+#: includes/support.matches.php:24
+msgid "Add New Match"
+msgstr ""
+
+#: includes/support.matches.php:56 includes/support.matches.php:59
+#: includes/support.matches.php:60 includes/support.matches.php:61
+msgid "Players"
+msgstr ""
+
+#: includes/support.matches.php:57
+msgid "Players Description"
+msgstr ""
+
+#: includes/support.matches.php:63
+msgid "All Players"
+msgstr ""
+
+#: includes/support.matches.php:65
+msgid "Add New Player"
+msgstr ""
+
+#: includes/support.matches.php:108
+msgid "Matches Group"
+msgstr ""
+
+#: includes/support.matches.php:118 includes/support.matches.php:144
+msgid "Categories"
+msgstr ""
+
+#: includes/support.matches.php:134
+msgid "Players Group"
+msgstr ""
+
+#: includes/support.menuitems.php:15 includes/support.menuitems.php:18
+#: includes/support.menuitems.php:20
+msgid "Menu items"
+msgstr ""
+
+#: includes/support.menuitems.php:16
+msgid "Menu Items Description"
+msgstr ""
+
+#: includes/support.menuitems.php:19
+msgid "Menu item"
+msgstr ""
+
+#: includes/support.menuitems.php:22
+msgid "All menu items"
+msgstr ""
+
+#: includes/support.menuitems.php:24
+msgid "Add New menu items"
+msgstr ""
+
+#: includes/support.menuitems.php:67
+msgid "Menu Items Group"
+msgstr ""
+
+#: includes/support.menuitems.php:77
+msgid "Menu items Group"
+msgstr ""
+
+#: includes/support.services.php:15 includes/support.services.php:19
+msgid "Service item"
+msgstr ""
+
+#: includes/support.services.php:16
+msgid "Service Description"
+msgstr ""
+
+#: includes/support.services.php:18 includes/support.services.php:20
+msgid "Services"
+msgstr ""
+
+#: includes/support.services.php:22
+msgid "All Services"
+msgstr ""
+
+#: includes/support.services.php:24
+msgid "Add New Service"
+msgstr ""
+
+#: includes/support.services.php:67 includes/support.services.php:77
+msgid "Services Group"
+msgstr ""
+
+#: includes/support.team.php:15 includes/support.team.php:19
+msgid "Team member"
+msgstr ""
+
+#: includes/support.team.php:16
+msgid "Team Description"
+msgstr ""
+
+#: includes/support.team.php:18 includes/support.team.php:20
+msgid "Team"
+msgstr ""
+
+#: includes/support.team.php:22
+msgid "All Team"
+msgstr ""
+
+#: includes/support.team.php:24
+msgid "Add New Team member"
+msgstr ""
+
+#: includes/support.team.php:67 includes/support.team.php:77
+msgid "Team Group"
+msgstr ""
+
+#: includes/support.testimonials.php:15 includes/support.testimonials.php:19
+msgid "Testimonial"
+msgstr ""
+
+#: includes/support.testimonials.php:16
+msgid "Testimonial Description"
+msgstr ""
+
+#: includes/support.testimonials.php:18 includes/support.testimonials.php:20
+msgid "Testimonials"
+msgstr ""
+
+#: includes/support.testimonials.php:22
+msgid "All Testimonials"
+msgstr ""
+
+#: includes/support.testimonials.php:24
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/support.testimonials.php:64
+msgid "Testimonials Group"
+msgstr ""
+
+#: includes/support.testimonials.php:74
+msgid "Testimonial Group"
+msgstr ""
+
+#: templates/tpl.login.php:23
+msgid "Login or Email"
+msgstr ""
+
+#: templates/tpl.login.php:24 templates/tpl.register.php:31
+msgid "Password"
+msgstr ""
+
+#: templates/tpl.login.php:26
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/tpl.login.php:28
+msgid "Remember me"
+msgstr ""
+
+#: templates/tpl.login.php:35
+msgid "You can login using your social profile"
+msgstr ""
+
+#: templates/tpl.register.php:22
+msgid "User name (login)"
+msgstr ""
+
+#: templates/tpl.register.php:23
+msgid "E-mail"
+msgstr ""
+
+#: templates/tpl.register.php:26
+msgid "I agree with"
+msgstr ""
+
+#: templates/tpl.register.php:26
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#: templates/tpl.register.php:28
+msgid "Sign Up"
+msgstr ""
+
+#: templates/tpl.register.php:32
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/tpl.register.php:33
+msgid "Minimum 6 characters"
+msgstr ""
+
+#: trx_utils.php:152
+msgid "Invalid server answer!"
+msgstr ""
+
+#: trx_utils.php:153
+msgid "Invalid field's value!"
+msgstr ""
+
+#: trx_utils.php:154
+msgid "The name can't be empty"
+msgstr ""
+
+#: trx_utils.php:155
+msgid "Too short (or empty) email address"
+msgstr ""
+
+#: trx_utils.php:156
+msgid "Invalid email address"
+msgstr ""
+
+#: trx_utils.php:157
+msgid "The message text can't be empty"
+msgstr ""
+
+#: trx_utils.php:158
+msgid "Send message complete!"
+msgstr ""
+
+#: trx_utils.php:159
+msgid "Transmit failed!"
+msgstr ""
+
+#: trx_utils.php:352
+msgid "Attention! Do not modify this .css-file!"
+msgstr ""
+
+#: trx_utils.php:354
+msgid "Please, make all necessary changes in the corresponding .less-file!"
+msgstr ""

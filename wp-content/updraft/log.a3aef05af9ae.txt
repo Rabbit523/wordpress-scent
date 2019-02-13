@@ -1,0 +1,413 @@
+0000.000 (0) Opened log file at time: Sat, 03 Mar 2018 03:27:22 +0000 on http://scent.fantasylab.no
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 5.6.31 (fpm-fcgi, Linux fantasylab-central2.fantasylab.no 3.10.0-327.3.1.el7.x86_64 #1 SMP Wed Dec 9 14:09:15 UTC 2015 x86_64) MySQL: 5.7.18 WPLANG: nb_NO Server: nginx/1.10.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 150.3M | 151.8M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 16675.9 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.013 (0) Semaphore (fd, wp_options) being initialised
+0000.019 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.026 (0) Set semaphore last lock (fd) time to 2018-03-03 03:27:22
+0000.028 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=a3aef05af9ae, begun at=1520047642 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1520047942) in case this run gets aborted
+0000.052 (0) Checking if we have a zip executable available
+0000.054 (0) Testing: /usr/bin/zip
+0000.067 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.069 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.071 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.074 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.085 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.088 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.097 (0) Working binary zip found: /usr/bin/zip
+0000.103 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.105 (0) Creation of backups of directories: beginning
+0000.110 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.208 (0) Total entities for the zip file: 1643 directories, 11088 files (0 skipped as non-modified), 153.2 MB
+0001.222 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.229 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.236 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.242 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.249 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.251 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.1 MB, 11088 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.081 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: size is now: 4.30 MB
+0002.092 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 600 files added (on-disk size: 4366.3 KB)
+0002.098 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 700 files added (on-disk size: 4366.3 KB)
+0002.105 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 800 files added (on-disk size: 4366.3 KB)
+0002.111 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 900 files added (on-disk size: 4366.3 KB)
+0002.118 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1000 files added (on-disk size: 4366.3 KB)
+0002.120 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.7 MB, 11088 files batched, 501 (1002) added so far); re-opening (prior size: 4366.3 KB)
+0002.402 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1100 files added (on-disk size: 4815.8 KB)
+0002.409 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1200 files added (on-disk size: 4815.8 KB)
+0002.416 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1300 files added (on-disk size: 4815.8 KB)
+0002.423 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1400 files added (on-disk size: 4815.8 KB)
+0002.429 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1500 files added (on-disk size: 4815.8 KB)
+0002.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 11088 files batched, 501 (1503) added so far); re-opening (prior size: 4815.8 KB)
+0002.870 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: size is now: 5.70 MB
+0002.882 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1600 files added (on-disk size: 5881.8 KB)
+0002.889 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1700 files added (on-disk size: 5881.8 KB)
+0002.896 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1800 files added (on-disk size: 5881.8 KB)
+0002.902 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 1900 files added (on-disk size: 5881.8 KB)
+0002.909 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2000 files added (on-disk size: 5881.8 KB)
+0002.911 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 11088 files batched, 501 (2004) added so far); re-opening (prior size: 5881.8 KB)
+0003.306 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: size is now: 8.20 MB
+0003.317 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2100 files added (on-disk size: 8433.2 KB)
+0003.324 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2200 files added (on-disk size: 8433.2 KB)
+0003.330 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2300 files added (on-disk size: 8433.2 KB)
+0003.337 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2400 files added (on-disk size: 8433.2 KB)
+0003.344 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2500 files added (on-disk size: 8433.2 KB)
+0003.346 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.4 MB, 11088 files batched, 501 (2505) added so far); re-opening (prior size: 8433.2 KB)
+0005.102 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: size is now: 13.20 MB
+0005.113 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2600 files added (on-disk size: 13519.3 KB)
+0005.121 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2700 files added (on-disk size: 13519.3 KB)
+0005.128 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2800 files added (on-disk size: 13519.3 KB)
+0005.135 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 2900 files added (on-disk size: 13519.3 KB)
+0005.141 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3000 files added (on-disk size: 13519.3 KB)
+0005.144 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 11088 files batched, 501 (3006) added so far); re-opening (prior size: 13519.3 KB)
+0005.795 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3100 files added (on-disk size: 14360.2 KB)
+0005.802 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3200 files added (on-disk size: 14360.2 KB)
+0005.809 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3300 files added (on-disk size: 14360.2 KB)
+0005.816 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3400 files added (on-disk size: 14360.2 KB)
+0005.823 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3500 files added (on-disk size: 14360.2 KB)
+0005.825 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 11088 files batched, 501 (3507) added so far); re-opening (prior size: 14360.2 KB)
+0006.298 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3600 files added (on-disk size: 15164.5 KB)
+0006.305 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3700 files added (on-disk size: 15164.5 KB)
+0006.312 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3800 files added (on-disk size: 15164.5 KB)
+0006.319 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 3900 files added (on-disk size: 15164.5 KB)
+0006.326 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4000 files added (on-disk size: 15164.5 KB)
+0006.329 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 11088 files batched, 501 (4008) added so far); re-opening (prior size: 15164.5 KB)
+0006.943 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: size is now: 19.20 MB
+0006.954 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4100 files added (on-disk size: 19657.9 KB)
+0006.961 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4200 files added (on-disk size: 19657.9 KB)
+0006.967 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4300 files added (on-disk size: 19657.9 KB)
+0006.974 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4400 files added (on-disk size: 19657.9 KB)
+0006.981 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4500 files added (on-disk size: 19657.9 KB)
+0006.983 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 11088 files batched, 501 (4509) added so far); re-opening (prior size: 19657.9 KB)
+0007.543 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4600 files added (on-disk size: 20387.8 KB)
+0007.551 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4700 files added (on-disk size: 20387.8 KB)
+0007.558 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4800 files added (on-disk size: 20387.8 KB)
+0007.565 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 4900 files added (on-disk size: 20387.8 KB)
+0007.572 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5000 files added (on-disk size: 20387.8 KB)
+0007.574 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 11088 files batched, 501 (5010) added so far); re-opening (prior size: 20387.8 KB)
+0008.194 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5100 files added (on-disk size: 21249.4 KB)
+0008.201 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5200 files added (on-disk size: 21249.4 KB)
+0008.207 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5300 files added (on-disk size: 21249.4 KB)
+0008.214 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5400 files added (on-disk size: 21249.4 KB)
+0008.220 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5500 files added (on-disk size: 21249.4 KB)
+0008.223 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 11088 files batched, 501 (5511) added so far); re-opening (prior size: 21249.4 KB)
+0009.128 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5600 files added (on-disk size: 24309.6 KB)
+0009.135 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5700 files added (on-disk size: 24309.6 KB)
+0009.142 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5800 files added (on-disk size: 24309.6 KB)
+0009.149 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 5900 files added (on-disk size: 24309.6 KB)
+0009.156 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6000 files added (on-disk size: 24309.6 KB)
+0009.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 11088 files batched, 501 (6012) added so far); re-opening (prior size: 24309.6 KB)
+0009.922 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6100 files added (on-disk size: 26575.6 KB)
+0009.930 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6200 files added (on-disk size: 26575.6 KB)
+0009.937 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6300 files added (on-disk size: 26575.6 KB)
+0009.944 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6400 files added (on-disk size: 26575.6 KB)
+0009.950 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6500 files added (on-disk size: 26575.6 KB)
+0009.953 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.8 MB, 11088 files batched, 501 (6513) added so far); re-opening (prior size: 26575.6 KB)
+0010.958 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6600 files added (on-disk size: 29922.3 KB)
+0010.966 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6700 files added (on-disk size: 29922.3 KB)
+0010.973 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6800 files added (on-disk size: 29922.3 KB)
+0010.980 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 6900 files added (on-disk size: 29922.3 KB)
+0010.986 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7000 files added (on-disk size: 29922.3 KB)
+0010.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16 MB, 11088 files batched, 501 (7014) added so far); re-opening (prior size: 29922.3 KB)
+0012.055 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7100 files added (on-disk size: 33646.1 KB)
+0012.062 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7200 files added (on-disk size: 33646.1 KB)
+0012.069 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7300 files added (on-disk size: 33646.1 KB)
+0012.075 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7400 files added (on-disk size: 33646.1 KB)
+0012.082 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7500 files added (on-disk size: 33646.1 KB)
+0012.084 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 11088 files batched, 501 (7515) added so far); re-opening (prior size: 33646.1 KB)
+0012.760 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7600 files added (on-disk size: 35117.7 KB)
+0012.767 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7700 files added (on-disk size: 35117.7 KB)
+0012.773 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7800 files added (on-disk size: 35117.7 KB)
+0012.780 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 7900 files added (on-disk size: 35117.7 KB)
+0012.788 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8000 files added (on-disk size: 35117.7 KB)
+0012.790 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 11088 files batched, 501 (8016) added so far); re-opening (prior size: 35117.7 KB)
+0013.450 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8100 files added (on-disk size: 37051.1 KB)
+0013.457 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8200 files added (on-disk size: 37051.1 KB)
+0013.464 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8300 files added (on-disk size: 37051.1 KB)
+0013.470 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8400 files added (on-disk size: 37051.1 KB)
+0013.477 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8500 files added (on-disk size: 37051.1 KB)
+0013.480 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 11088 files batched, 501 (8517) added so far); re-opening (prior size: 37051.1 KB)
+0014.540 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8600 files added (on-disk size: 39842 KB)
+0014.547 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8700 files added (on-disk size: 39842 KB)
+0014.554 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8800 files added (on-disk size: 39842 KB)
+0014.561 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 8900 files added (on-disk size: 39842 KB)
+0014.567 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9000 files added (on-disk size: 39842 KB)
+0014.570 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 11088 files batched, 501 (9018) added so far); re-opening (prior size: 39842 KB)
+0015.275 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9100 files added (on-disk size: 42225.3 KB)
+0015.283 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9200 files added (on-disk size: 42225.3 KB)
+0015.290 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9300 files added (on-disk size: 42225.3 KB)
+0015.297 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9400 files added (on-disk size: 42225.3 KB)
+0015.304 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9500 files added (on-disk size: 42225.3 KB)
+0015.307 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 11088 files batched, 501 (9519) added so far); re-opening (prior size: 42225.3 KB)
+0016.025 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9600 files added (on-disk size: 43764.1 KB)
+0016.034 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9700 files added (on-disk size: 43764.1 KB)
+0016.043 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9800 files added (on-disk size: 43764.1 KB)
+0016.052 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 9900 files added (on-disk size: 43764.1 KB)
+0016.060 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10000 files added (on-disk size: 43764.1 KB)
+0016.063 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.5 MB, 11088 files batched, 501 (10020) added so far); re-opening (prior size: 43764.1 KB)
+0017.098 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10100 files added (on-disk size: 47051.6 KB)
+0017.117 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10200 files added (on-disk size: 47051.6 KB)
+0017.124 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10300 files added (on-disk size: 47051.6 KB)
+0017.132 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10400 files added (on-disk size: 47051.6 KB)
+0017.138 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10500 files added (on-disk size: 47051.6 KB)
+0017.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 11088 files batched, 501 (10521) added so far); re-opening (prior size: 47051.6 KB)
+0018.203 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10600 files added (on-disk size: 49220.4 KB)
+0018.210 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10700 files added (on-disk size: 49220.4 KB)
+0018.219 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10800 files added (on-disk size: 49220.4 KB)
+0018.227 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 10900 files added (on-disk size: 49220.4 KB)
+0018.235 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip.tmp: 11000 files added (on-disk size: 49220.4 KB)
+0018.238 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 11088 files batched, 501 (11022) added so far); re-opening (prior size: 49220.4 KB)
+0020.337 (0) Created plugins zip (0) - 50916.5 KB in 20.2 s (2517.6 KB/s) (sha1: 0f13ffae83e7a3e36cf2b309e28fff5d6732bdea, sha256: f57edbf631b473ae0f479f45e4ed5d4062cf2e18ca7e8a7646eae0770eccf864)
+0020.344 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.453 (0) Total entities for the zip file: 110 directories, 1024 files (0 skipped as non-modified), 36.4 MB
+0020.461 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.467 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.474 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.480 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.487 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.489 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 1024 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0020.998 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: size is now: 6.30 MB
+0021.008 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 600 files added (on-disk size: 6406.5 KB)
+0021.014 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 700 files added (on-disk size: 6406.5 KB)
+0021.020 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 800 files added (on-disk size: 6406.5 KB)
+0021.027 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 900 files added (on-disk size: 6406.5 KB)
+0021.032 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.9 MB, 1024 files batched, 487 (988) added so far); re-opening (prior size: 6406.5 KB)
+0021.794 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: size is now: 27.40 MB
+0021.800 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.5 s, rate: 16799.7 KB/s)
+0021.804 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6379959583282, normalised_time=1.5238411089457, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=103217060)
+0021.808 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip.tmp: 1000 files added (on-disk size: 28025.9 KB)
+0022.341 (0) Created themes zip (0) - 28745.8 KB in 2 s (14415.5 KB/s) (sha1: f41ecfd845d3017ed388b23466546b323e81d323, sha256: ca7edc58e8f61ff78c57700e7f92f33685983ac69742c7745729c679e8386b67)
+0022.348 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0022.350 (0) Looking for candidates to back up in: /var/www/html/scent.fantasylab.no/wp-content/uploads
+0022.352 (0) finding files: maxmegamenu: adding to list (1)
+0022.354 (0) finding files: 2018: adding to list (2)
+0022.356 (0) finding files: revslider: adding to list (3)
+0022.358 (0) finding files: woocommerce_uploads: adding to list (4)
+0022.359 (0) finding files: wc-logs: adding to list (5)
+0022.361 (0) finding files: 2016: adding to list (6)
+0022.363 (0) finding files: js_composer: adding to list (7)
+0022.365 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0022.590 (0) Total entities for the zip file: 182 directories, 2636 files (0 skipped as non-modified), 35.9 MB
+0022.598 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.604 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.611 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.618 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.624 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.627 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 2636 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0023.107 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: size is now: 9.90 MB
+0023.119 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 600 files added (on-disk size: 10125.4 KB)
+0023.126 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 700 files added (on-disk size: 10125.4 KB)
+0023.132 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 800 files added (on-disk size: 10125.4 KB)
+0023.139 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 900 files added (on-disk size: 10125.4 KB)
+0023.145 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1000 files added (on-disk size: 10125.4 KB)
+0023.147 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 2636 files batched, 501 (1002) added so far); re-opening (prior size: 10125.4 KB)
+0023.586 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1100 files added (on-disk size: 10802.3 KB)
+0023.593 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1200 files added (on-disk size: 10802.3 KB)
+0023.600 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1300 files added (on-disk size: 10802.3 KB)
+0023.607 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1400 files added (on-disk size: 10802.3 KB)
+0023.614 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1500 files added (on-disk size: 10802.3 KB)
+0023.616 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 2636 files batched, 501 (1503) added so far); re-opening (prior size: 10802.3 KB)
+0024.042 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1600 files added (on-disk size: 11689.1 KB)
+0024.049 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1700 files added (on-disk size: 11689.1 KB)
+0024.056 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1800 files added (on-disk size: 11689.1 KB)
+0024.062 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 1900 files added (on-disk size: 11689.1 KB)
+0024.069 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2000 files added (on-disk size: 11689.1 KB)
+0024.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 2636 files batched, 501 (2004) added so far); re-opening (prior size: 11689.1 KB)
+0024.587 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: size is now: 18.00 MB
+0024.598 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2100 files added (on-disk size: 18419.6 KB)
+0024.604 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2200 files added (on-disk size: 18419.6 KB)
+0024.611 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2300 files added (on-disk size: 18419.6 KB)
+0024.618 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2400 files added (on-disk size: 18419.6 KB)
+0024.625 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2500 files added (on-disk size: 18419.6 KB)
+0024.627 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 MB, 2636 files batched, 501 (2505) added so far); re-opening (prior size: 18419.6 KB)
+0025.205 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: size is now: 31.30 MB
+0025.219 (0) Zip: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip.tmp: 2600 files added (on-disk size: 32017.9 KB)
+0025.890 (0) Created uploads zip (0) - 35891.9 KB in 3.5 s (10190 KB/s) (sha1: 837683181df496d06b0a3af4742a7aac8615fa99, sha256: a54fac74032cfb8861cedeb27bd372fbe9427363884f98a4f7aa5d763a6291ae)
+0025.896 (0) Beginning backup of other directories found in the content directory (index: 0)
+0025.898 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0025.900 (0) Looking for candidates to back up in: /var/www/html/scent.fantasylab.no/wp-content
+0025.903 (0) finding files: uploads: skipping: this is the uploads directory
+0025.905 (0) finding files: upgrade: skipping: excluded by options
+0025.907 (0) finding files: index.php: adding to list (1)
+0025.909 (0) finding files: themes: skipping: this is the themes directory
+0025.910 (0) finding files: updraft: skipping: this is the updraft directory
+0025.912 (0) finding files: languages: adding to list (2)
+0025.914 (0) finding files: plugins: skipping: this is the plugins directory
+0025.923 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 2.9 MB
+0026.094 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-others.zip.tmp: size is now: 0.80 MB
+0026.113 (0) Created others zip (0) - 817.6 KB in 0.2 s (4176.2 KB/s) (sha1: aab7162b26223e84c1573126d427e0e5bf90fe8d, sha256: 4c5ca1119195b04e084e09a1cdf50b300ce99fc91c86622ccf53bde82b684a58)
+0026.122 (0) Saving backup status to database (elements: 8)
+0026.158 (0) Beginning creation of database dump (WordPress DB)
+0026.168 (0) Testing: /usr/bin/mysqldump
+0027.381 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 1984 bytes total)
+0027.390 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0027.438 (0) Table wp_options: Total expected rows (approximate): 739
+0027.529 (0) Table wp_options: Total rows added: 755 in 0.09 seconds
+0027.532 (0) Table wp_options: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_options.table.gz - 179 KB)
+0027.539 (0) Table wp_users: Total expected rows (approximate): 567
+0027.602 (0) Table wp_users: Total rows added: 569 in 0.06 seconds
+0027.605 (0) Table wp_users: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_users.table.gz - 29.6 KB)
+0027.612 (0) Table wp_usermeta: Total expected rows (approximate): 7569
+0027.902 (0) Table wp_usermeta: Total rows added: 7555 in 0.29 seconds
+0027.905 (0) Table wp_usermeta: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_usermeta.table.gz - 50.1 KB)
+0027.930 (0) Table wp_commentmeta: Total expected rows (approximate): 12
+0027.938 (0) Table wp_commentmeta: Total rows added: 12 in 0.01 seconds
+0027.940 (0) Table wp_commentmeta: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0027.947 (0) Table wp_comments: Total expected rows (approximate): 14
+0027.952 (0) Table wp_comments: Total rows added: 14 in 0.00 seconds
+0027.954 (0) Table wp_comments: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_comments.table.gz - 1.5 KB)
+0027.965 (0) Table wp_links: Total expected rows (approximate): 0
+0027.970 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0027.972 (0) Table wp_links: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_links.table.gz - 0.4 KB)
+0027.978 (0) Table wp_postmeta: Total expected rows (approximate): 5393
+0028.407 (0) Table wp_postmeta: Total rows added: 5110 in 0.43 seconds
+0028.409 (0) Table wp_postmeta: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_postmeta.table.gz - 54.8 KB)
+0028.416 (0) Table wp_posts: Total expected rows (approximate): 378
+0028.506 (0) Table wp_posts: Total rows added: 380 in 0.09 seconds
+0028.508 (0) Table wp_posts: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_posts.table.gz - 35.7 KB)
+0028.515 (0) Table wp_term_relationships: Total expected rows (approximate): 302
+0028.524 (0) Table wp_term_relationships: Total rows added: 300 in 0.01 seconds
+0028.526 (0) Table wp_term_relationships: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_term_relationships.table.gz - 1.1 KB)
+0028.533 (0) Table wp_term_taxonomy: Total expected rows (approximate): 112
+0028.541 (0) Table wp_term_taxonomy: Total rows added: 112 in 0.01 seconds
+0028.543 (0) Table wp_term_taxonomy: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_term_taxonomy.table.gz - 1.2 KB)
+0028.550 (0) Table wp_termmeta: Total expected rows (approximate): 104
+0028.721 (0) Table wp_termmeta: Total rows added: 107 in 0.17 seconds
+0028.727 (0) Table wp_termmeta: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_termmeta.table.gz - 1 KB)
+0028.734 (0) Table wp_terms: Total expected rows (approximate): 112
+0028.742 (0) Table wp_terms: Total rows added: 112 in 0.01 seconds
+0028.745 (0) Table wp_terms: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_terms.table.gz - 1.7 KB)
+0028.751 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 40
+0028.758 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 40 in 0.00 seconds
+0028.760 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.7 KB)
+0028.793 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0028.826 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.03 seconds
+0028.829 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0028.848 (0) Table wp_eg_grids: Total expected rows (approximate): 7
+0028.889 (0) Table wp_eg_grids: Total rows added: 7 in 0.04 seconds
+0028.892 (0) Table wp_eg_grids: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_grids.table.gz - 2 KB)
+0028.908 (0) Table wp_eg_item_elements: Total expected rows (approximate): 0
+0028.915 (0) Table wp_eg_item_elements: Total rows added: 0 in 0.01 seconds
+0028.917 (0) Table wp_eg_item_elements: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_item_elements.table.gz - 0.3 KB)
+0028.932 (0) Table wp_eg_item_skins: Total expected rows (approximate): 75
+0029.242 (0) Table wp_eg_item_skins: Total rows added: 101 in 0.31 seconds
+0029.245 (0) Table wp_eg_item_skins: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_item_skins.table.gz - 43 KB)
+0029.254 (0) Table wp_eg_navigation_skins: Total expected rows (approximate): 16
+0029.275 (0) Table wp_eg_navigation_skins: Total rows added: 16 in 0.02 seconds
+0029.278 (0) Table wp_eg_navigation_skins: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_navigation_skins.table.gz - 5.1 KB)
+0029.288 (0) Table wp_revslider_css: Total expected rows (approximate): 125
+0029.318 (0) Table wp_revslider_css: Total rows added: 125 in 0.03 seconds
+0029.321 (0) Table wp_revslider_css: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_css.table.gz - 5.2 KB)
+0029.332 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0029.337 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0029.339 (0) Table wp_revslider_layer_animations: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0029.347 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0029.353 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0029.355 (0) Table wp_revslider_navigations: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0029.362 (0) Table wp_revslider_sliders: Total expected rows (approximate): 3
+0029.378 (0) Table wp_revslider_sliders: Total rows added: 3 in 0.01 seconds
+0029.381 (0) Table wp_revslider_sliders: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_sliders.table.gz - 3.4 KB)
+0029.389 (0) Table wp_revslider_slides: Total expected rows (approximate): 9
+0029.437 (0) Table wp_revslider_slides: Total rows added: 9 in 0.05 seconds
+0029.439 (0) Table wp_revslider_slides: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_slides.table.gz - 7.8 KB)
+0029.447 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0029.452 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0029.454 (0) Table wp_revslider_static_slides: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0029.462 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0029.469 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.01 seconds
+0029.471 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0029.482 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0029.490 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 1 in 0.01 seconds
+0029.492 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0029.506 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0029.511 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0029.513 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0029.523 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0029.530 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.01 seconds
+0029.532 (0) Table wp_woocommerce_log: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0029.538 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 4
+0029.542 (0) Table wp_woocommerce_order_items: Total rows added: 4 in 0.00 seconds
+0029.544 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_order_items.table.gz - 0.5 KB)
+0029.553 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0029.558 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0029.560 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0029.569 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 2
+0029.574 (0) Table wp_woocommerce_sessions: Total rows added: 2 in 0.00 seconds
+0029.577 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0029.588 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0029.594 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0029.596 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0029.605 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0029.610 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0029.612 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0029.620 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0029.629 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.01 seconds
+0029.632 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0029.641 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0029.649 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.01 seconds
+0029.651 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0029.664 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0029.672 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.01 seconds
+0029.674 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0029.686 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_options.table.gz (1/36): adding to final database dump
+0029.732 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_users.table.gz (2/36): adding to final database dump
+0029.744 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_usermeta.table.gz (3/36): adding to final database dump
+0029.823 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_commentmeta.table.gz (4/36): adding to final database dump
+0029.827 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_comments.table.gz (5/36): adding to final database dump
+0029.830 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_links.table.gz (6/36): adding to final database dump
+0029.832 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_postmeta.table.gz (7/36): adding to final database dump
+0029.889 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_posts.table.gz (8/36): adding to final database dump
+0029.904 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_term_relationships.table.gz (9/36): adding to final database dump
+0029.909 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_term_taxonomy.table.gz (10/36): adding to final database dump
+0029.913 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_termmeta.table.gz (11/36): adding to final database dump
+0029.916 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_terms.table.gz (12/36): adding to final database dump
+0029.919 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_order_itemmeta.table.gz (13/36): adding to final database dump
+0029.922 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/36): adding to final database dump
+0029.924 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_grids.table.gz (15/36): adding to final database dump
+0029.926 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_item_elements.table.gz (16/36): adding to final database dump
+0029.929 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_item_skins.table.gz (17/36): adding to final database dump
+0029.951 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_eg_navigation_skins.table.gz (18/36): adding to final database dump
+0029.955 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_css.table.gz (19/36): adding to final database dump
+0029.960 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_layer_animations.table.gz (20/36): adding to final database dump
+0029.962 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_navigations.table.gz (21/36): adding to final database dump
+0029.964 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_sliders.table.gz (22/36): adding to final database dump
+0029.967 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_slides.table.gz (23/36): adding to final database dump
+0029.973 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_revslider_static_slides.table.gz (24/36): adding to final database dump
+0029.975 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_api_keys.table.gz (25/36): adding to final database dump
+0029.977 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_attribute_taxonomies.table.gz (26/36): adding to final database dump
+0029.979 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (27/36): adding to final database dump
+0029.981 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_log.table.gz (28/36): adding to final database dump
+0029.983 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_order_items.table.gz (29/36): adding to final database dump
+0029.985 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_payment_tokens.table.gz (30/36): adding to final database dump
+0029.988 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_sessions.table.gz (31/36): adding to final database dump
+0029.990 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_shipping_zone_locations.table.gz (32/36): adding to final database dump
+0029.992 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_shipping_zone_methods.table.gz (33/36): adding to final database dump
+0029.994 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_shipping_zones.table.gz (34/36): adding to final database dump
+0029.996 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_tax_rate_locations.table.gz (35/36): adding to final database dump
+0029.998 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db-table-wp_woocommerce_tax_rates.table.gz (36/36): adding to final database dump
+0030.000 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db.gz: finished writing out complete database file (408 KB)
+0030.014 (0) Total database tables backed up: 36 (backup_2018-03-03-0427_Scent_a3aef05af9ae-db.gz, size: 434877, sha256)
+0030.024 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0030.026 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0030.028 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0030.030 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-others.zip: others: This file has not yet been successfully uploaded: will queue
+0030.032 (0) backup_2018-03-03-0427_Scent_a3aef05af9ae-db.gz: db: This file has not yet been successfully uploaded: will queue
+0030.034 (0) Saving backup history. Total backup size: 114.1 MB
+0030.040 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0030.046 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.048 (0) No remote despatch: user chose no remote backup service
+0030.052 (0) Recording as successfully uploaded: backup_2018-03-03-0427_Scent_a3aef05af9ae-plugins.zip (6c6cf8f3f7cf987a304432699fe1b189)
+0030.061 (0) Recording as successfully uploaded: backup_2018-03-03-0427_Scent_a3aef05af9ae-themes.zip (3e2c950483f210affd1e238e4c91142e)
+0030.069 (0) Recording as successfully uploaded: backup_2018-03-03-0427_Scent_a3aef05af9ae-uploads.zip (8623491ec927d22b879dce9c896b7f7c)
+0030.076 (0) Recording as successfully uploaded: backup_2018-03-03-0427_Scent_a3aef05af9ae-others.zip (6404df93be513d62f2ed8d54f0748d0d)
+0030.084 (0) Recording as successfully uploaded: backup_2018-03-03-0427_Scent_a3aef05af9ae-db.gz (c89b162672d658ff3ac961fe9e821666)
+0030.092 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0030.094 (0) Resume backup (a3aef05af9ae, 0): finish run
+0030.100 (0) Decremented the semaphore (fd) by 1
+0030.104 (0) Semaphore (fd) unlocked
+0030.107 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0030.117 (0) The backup apparently succeeded and is now complete
+0030.121 (0) No email will/can be sent - the user has not configured an email address.
+0030.169 (0) Sikkerhetskopieringen er fullført.

@@ -1,0 +1,233 @@
+0000.000 (0) Opened log file at time: Wed, 23 May 2018 01:57:24 +0000 on http://scent.fantasylab.no
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.6.31 (fpm-fcgi, Linux fantasylab-central2.fantasylab.no 3.10.0-327.3.1.el7.x86_64 #1 SMP Wed Dec 9 14:09:15 UTC 2015 x86_64) MySQL: 5.7.18 WPLANG: en_US Server: nginx/1.12.2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 140M | 141M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 9756.4 MB
+0000.012 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.024 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.033 (0) Set semaphore last lock (d) time to 2018-05-23 01:57:24
+0000.036 (0) Semaphore lock (d) complete
+0000.051 (0) Backup run: resumption=0, nonce=52c572d3e542, begun at=1527040644 (0s ago), job type=backup
+0000.057 (0) Scheduling a resumption (1) after 300 seconds (1527040944) in case this run gets aborted
+0000.075 (0) This backup run is not intended for files - skipping
+0000.078 (0) Beginning creation of database dump (WordPress DB)
+0000.083 (0) Testing: /usr/bin/mysqldump
+0000.173 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 1985 bytes total)
+0000.177 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.275 (0) Table wp_options: Total expected rows (approximate): 740
+0000.346 (0) Table wp_options: Total rows added: 701 in 0.07 seconds
+0000.351 (0) Table wp_options: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_options.table.gz - 270 KB)
+0000.363 (0) Table wp_users: Total expected rows (approximate): 567
+0000.396 (0) Table wp_users: Total rows added: 570 in 0.03 seconds
+0000.400 (0) Table wp_users: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_users.table.gz - 29.7 KB)
+0000.410 (0) Table wp_usermeta: Total expected rows (approximate): 7569
+0000.618 (0) Table wp_usermeta: Total rows added: 7593 in 0.21 seconds
+0000.623 (0) Table wp_usermeta: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_usermeta.table.gz - 51 KB)
+0000.633 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.637 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.640 (0) Table wp_commentmeta: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.651 (0) Table wp_comments: Total expected rows (approximate): 5
+0000.656 (0) Table wp_comments: Total rows added: 5 in 0.00 seconds
+0000.659 (0) Table wp_comments: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_comments.table.gz - 0.9 KB)
+0000.668 (0) Table wp_links: Total expected rows (approximate): 0
+0000.674 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0000.677 (0) Table wp_links: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_links.table.gz - 0.4 KB)
+0000.686 (0) Table wp_postmeta: Total expected rows (approximate): 16300
+0000.810 (0) Table wp_postmeta: binary mysqldump finished (writes: 46) in 0.12 seconds
+0000.815 (0) Table wp_postmeta: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_postmeta.table.gz - 164.4 KB)
+0000.825 (0) Table wp_posts: Total expected rows (approximate): 998
+0000.999 (0) Table wp_posts: Total rows added: 1258 in 0.17 seconds
+0001.004 (0) Table wp_posts: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_posts.table.gz - 127.6 KB)
+0001.013 (0) Table wp_term_relationships: Total expected rows (approximate): 2875
+0001.084 (0) Table wp_term_relationships: Total rows added: 5491 in 0.07 seconds
+0001.088 (0) Table wp_term_relationships: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_term_relationships.table.gz - 15.2 KB)
+0001.098 (0) Table wp_term_taxonomy: Total expected rows (approximate): 494
+0001.117 (0) Table wp_term_taxonomy: Total rows added: 513 in 0.02 seconds
+0001.121 (0) Table wp_term_taxonomy: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_term_taxonomy.table.gz - 6.7 KB)
+0001.131 (0) Table wp_termmeta: Total expected rows (approximate): 477
+0001.147 (0) Table wp_termmeta: Total rows added: 527 in 0.01 seconds
+0001.150 (0) Table wp_termmeta: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_termmeta.table.gz - 3.8 KB)
+0001.160 (0) Table wp_terms: Total expected rows (approximate): 498
+0001.175 (0) Table wp_terms: Total rows added: 513 in 0.01 seconds
+0001.179 (0) Table wp_terms: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_terms.table.gz - 6.4 KB)
+0001.188 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 58
+0001.195 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 58 in 0.00 seconds
+0001.198 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.8 KB)
+0001.207 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0001.212 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0001.215 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0001.224 (0) Table wp_eg_grids: Total expected rows (approximate): 7
+0001.229 (0) Table wp_eg_grids: Total rows added: 7 in 0.00 seconds
+0001.233 (0) Table wp_eg_grids: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_grids.table.gz - 2 KB)
+0001.242 (0) Table wp_eg_item_elements: Total expected rows (approximate): 0
+0001.247 (0) Table wp_eg_item_elements: Total rows added: 0 in 0.00 seconds
+0001.250 (0) Table wp_eg_item_elements: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_item_elements.table.gz - 0.3 KB)
+0001.260 (0) Table wp_eg_item_skins: Total expected rows (approximate): 75
+0001.288 (0) Table wp_eg_item_skins: Total rows added: 101 in 0.02 seconds
+0001.291 (0) Table wp_eg_item_skins: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_item_skins.table.gz - 43 KB)
+0001.301 (0) Table wp_eg_navigation_skins: Total expected rows (approximate): 16
+0001.307 (0) Table wp_eg_navigation_skins: Total rows added: 16 in 0.00 seconds
+0001.310 (0) Table wp_eg_navigation_skins: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_navigation_skins.table.gz - 5.1 KB)
+0001.319 (0) Table wp_pmxe_exports: Total expected rows (approximate): 1
+0001.324 (0) Table wp_pmxe_exports: Total rows added: 1 in 0.00 seconds
+0001.327 (0) Table wp_pmxe_exports: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_exports.table.gz - 3.8 KB)
+0001.336 (0) Table wp_pmxe_google_cats: Total expected rows (approximate): 5512
+0001.482 (0) Table wp_pmxe_google_cats: Total rows added: 5371 in 0.14 seconds
+0001.486 (0) Table wp_pmxe_google_cats: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_google_cats.table.gz - 75.3 KB)
+0001.495 (0) Table wp_pmxe_posts: Total expected rows (approximate): 413
+0001.505 (0) Table wp_pmxe_posts: Total rows added: 413 in 0.01 seconds
+0001.508 (0) Table wp_pmxe_posts: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_posts.table.gz - 2.2 KB)
+0001.518 (0) Table wp_pmxe_templates: Total expected rows (approximate): 0
+0001.522 (0) Table wp_pmxe_templates: Total rows added: 0 in 0.00 seconds
+0001.525 (0) Table wp_pmxe_templates: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_templates.table.gz - 0.3 KB)
+0001.534 (0) Table wp_pmxi_files: Total expected rows (approximate): 1
+0001.540 (0) Table wp_pmxi_files: Total rows added: 4 in 0.00 seconds
+0001.542 (0) Table wp_pmxi_files: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_files.table.gz - 0.7 KB)
+0001.552 (0) Table wp_pmxi_history: Total expected rows (approximate): 0
+0001.557 (0) Table wp_pmxi_history: Total rows added: 3 in 0.00 seconds
+0001.560 (0) Table wp_pmxi_history: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_history.table.gz - 0.5 KB)
+0001.569 (0) Table wp_pmxi_images: Total expected rows (approximate): 0
+0001.574 (0) Table wp_pmxi_images: Total rows added: 0 in 0.00 seconds
+0001.576 (0) Table wp_pmxi_images: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_images.table.gz - 0.3 KB)
+0001.586 (0) Table wp_pmxi_imports: Total expected rows (approximate): 1
+0001.595 (0) Table wp_pmxi_imports: Total rows added: 4 in 0.01 seconds
+0001.599 (0) Table wp_pmxi_imports: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_imports.table.gz - 7 KB)
+0001.609 (0) Table wp_pmxi_posts: Total expected rows (approximate): 836
+0001.637 (0) Table wp_pmxi_posts: Total rows added: 836 in 0.02 seconds
+0001.642 (0) Table wp_pmxi_posts: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_posts.table.gz - 13 KB)
+0001.652 (0) Table wp_pmxi_templates: Total expected rows (approximate): 0
+0001.660 (0) Table wp_pmxi_templates: Total rows added: 1 in 0.01 seconds
+0001.664 (0) Table wp_pmxi_templates: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_templates.table.gz - 4.6 KB)
+0001.673 (0) Table wp_revslider_css: Total expected rows (approximate): 125
+0001.684 (0) Table wp_revslider_css: Total rows added: 125 in 0.01 seconds
+0001.687 (0) Table wp_revslider_css: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_css.table.gz - 5.2 KB)
+0001.697 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0001.701 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0001.704 (0) Table wp_revslider_layer_animations: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0001.713 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0001.717 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0001.720 (0) Table wp_revslider_navigations: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0001.730 (0) Table wp_revslider_sliders: Total expected rows (approximate): 3
+0001.734 (0) Table wp_revslider_sliders: Total rows added: 3 in 0.00 seconds
+0001.738 (0) Table wp_revslider_sliders: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_sliders.table.gz - 3.7 KB)
+0001.747 (0) Table wp_revslider_slides: Total expected rows (approximate): 9
+0001.755 (0) Table wp_revslider_slides: Total rows added: 10 in 0.00 seconds
+0001.758 (0) Table wp_revslider_slides: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_slides.table.gz - 7.9 KB)
+0001.767 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0001.771 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0001.775 (0) Table wp_revslider_static_slides: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0001.784 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0001.789 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0001.792 (0) Table wp_wc_download_log: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0001.802 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0001.808 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0001.811 (0) Table wp_wc_webhooks: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0001.820 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0001.826 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0001.829 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0001.838 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0001.843 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 1 in 0.00 seconds
+0001.846 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0001.856 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0001.862 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0001.865 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0001.874 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0001.879 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0001.882 (0) Table wp_woocommerce_log: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0001.892 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 5
+0001.897 (0) Table wp_woocommerce_order_items: Total rows added: 6 in 0.00 seconds
+0001.900 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_order_items.table.gz - 0.6 KB)
+0001.909 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0001.914 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0001.917 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0001.926 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 2
+0001.930 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0001.933 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_sessions.table.gz - 1.2 KB)
+0001.942 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0001.949 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0001.952 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0001.962 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0001.967 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0001.970 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0001.979 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0001.984 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0001.987 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0001.996 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0002.001 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0002.004 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0002.013 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 1
+0002.017 (0) Table wp_woocommerce_tax_rates: Total rows added: 1 in 0.00 seconds
+0002.020 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_tax_rates.table.gz - 0.5 KB)
+0002.029 (0) Table wp_woof_query_cache: Total expected rows (approximate): 0
+0002.034 (0) Table wp_woof_query_cache: Total rows added: 0 in 0.00 seconds
+0002.037 (0) Table wp_woof_query_cache: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woof_query_cache.table.gz - 0.3 KB)
+0002.046 (0) Table wp_wsluserscontacts: Total expected rows (approximate): 0
+0002.051 (0) Table wp_wsluserscontacts: Total rows added: 0 in 0.00 seconds
+0002.054 (0) Table wp_wsluserscontacts: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wsluserscontacts.table.gz - 0.3 KB)
+0002.064 (0) Table wp_wslusersprofiles: Total expected rows (approximate): 0
+0002.070 (0) Table wp_wslusersprofiles: Total rows added: 0 in 0.00 seconds
+0002.073 (0) Table wp_wslusersprofiles: finishing file (backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wslusersprofiles.table.gz - 0.5 KB)
+0002.084 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_options.table.gz (1/51): adding to final database dump
+0002.138 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_users.table.gz (2/51): adding to final database dump
+0002.149 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_usermeta.table.gz (3/51): adding to final database dump
+0002.208 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_commentmeta.table.gz (4/51): adding to final database dump
+0002.212 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_comments.table.gz (5/51): adding to final database dump
+0002.216 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_links.table.gz (6/51): adding to final database dump
+0002.219 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_postmeta.table.gz (7/51): adding to final database dump
+0002.268 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_posts.table.gz (8/51): adding to final database dump
+0002.306 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_term_relationships.table.gz (9/51): adding to final database dump
+0002.345 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_term_taxonomy.table.gz (10/51): adding to final database dump
+0002.354 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_termmeta.table.gz (11/51): adding to final database dump
+0002.363 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_terms.table.gz (12/51): adding to final database dump
+0002.373 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_order_itemmeta.table.gz (13/51): adding to final database dump
+0002.379 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/51): adding to final database dump
+0002.383 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_grids.table.gz (15/51): adding to final database dump
+0002.387 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_item_elements.table.gz (16/51): adding to final database dump
+0002.392 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_item_skins.table.gz (17/51): adding to final database dump
+0002.415 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_eg_navigation_skins.table.gz (18/51): adding to final database dump
+0002.420 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_exports.table.gz (19/51): adding to final database dump
+0002.424 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_google_cats.table.gz (20/51): adding to final database dump
+0002.477 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_posts.table.gz (21/51): adding to final database dump
+0002.485 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxe_templates.table.gz (22/51): adding to final database dump
+0002.488 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_files.table.gz (23/51): adding to final database dump
+0002.491 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_history.table.gz (24/51): adding to final database dump
+0002.494 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_images.table.gz (25/51): adding to final database dump
+0002.497 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_imports.table.gz (26/51): adding to final database dump
+0002.503 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_posts.table.gz (27/51): adding to final database dump
+0002.512 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_pmxi_templates.table.gz (28/51): adding to final database dump
+0002.517 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_css.table.gz (29/51): adding to final database dump
+0002.523 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_layer_animations.table.gz (30/51): adding to final database dump
+0002.535 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_navigations.table.gz (31/51): adding to final database dump
+0002.542 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_sliders.table.gz (32/51): adding to final database dump
+0002.549 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_slides.table.gz (33/51): adding to final database dump
+0002.555 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_revslider_static_slides.table.gz (34/51): adding to final database dump
+0002.561 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wc_download_log.table.gz (35/51): adding to final database dump
+0002.573 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wc_webhooks.table.gz (36/51): adding to final database dump
+0002.577 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_api_keys.table.gz (37/51): adding to final database dump
+0002.580 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_attribute_taxonomies.table.gz (38/51): adding to final database dump
+0002.583 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (39/51): adding to final database dump
+0002.588 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_log.table.gz (40/51): adding to final database dump
+0002.592 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_order_items.table.gz (41/51): adding to final database dump
+0002.595 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_payment_tokens.table.gz (42/51): adding to final database dump
+0002.601 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_sessions.table.gz (43/51): adding to final database dump
+0002.616 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_shipping_zone_locations.table.gz (44/51): adding to final database dump
+0002.622 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_shipping_zone_methods.table.gz (45/51): adding to final database dump
+0002.625 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_shipping_zones.table.gz (46/51): adding to final database dump
+0002.629 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_tax_rate_locations.table.gz (47/51): adding to final database dump
+0002.632 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woocommerce_tax_rates.table.gz (48/51): adding to final database dump
+0002.635 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_woof_query_cache.table.gz (49/51): adding to final database dump
+0002.639 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wsluserscontacts.table.gz (50/51): adding to final database dump
+0002.642 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db-table-wp_wslusersprofiles.table.gz (51/51): adding to final database dump
+0002.646 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db.gz: finished writing out complete database file (832 KB)
+0002.668 (0) Total database tables backed up: 51 (backup_2018-05-23-0357_Scent_52c572d3e542-db.gz, size: 875171, sha256)
+0002.683 (0) backup_2018-05-23-0357_Scent_52c572d3e542-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.685 (0) Saving backup history. Total backup size: 854.7 KB
+0002.693 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.702 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.705 (0) No remote despatch: user chose no remote backup service
+0002.711 (0) Recording as successfully uploaded: backup_2018-05-23-0357_Scent_52c572d3e542-db.gz (6611cccbdb7071470b00c8c46aa85505)
+0002.723 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0002.726 (0) Resume backup (52c572d3e542, 0): finish run
+0002.733 (0) Decremented the semaphore (d) by 1
+0002.738 (0) Semaphore (d) unlocked
+0002.741 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.750 (0) No email will/can be sent - the user has not configured an email address.
+0002.753 (0) The backup apparently succeeded and is now complete

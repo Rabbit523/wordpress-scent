@@ -1,0 +1,587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Nets Payment Gateway v1.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-16 14:35+0200\n"
+"PO-Revision-Date: 2017-05-16 14:36+0200\n"
+"Last-Translator: Nickolass Jensen <nj@nettpilot.no>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:58
+#: am/admin/class-wc-api-manager-menu.php:62
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:77
+msgid "API License Activation"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:78
+msgid "API License Key Status"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:79
+msgid "API License Key"
+msgstr "Lisensnøkkel"
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:80
+msgid "API License email"
+msgstr "API lisens Epost"
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:84
+msgid "API License Deactivation"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:85
+msgid "Deactivate API License Key"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:165
+msgid "Plugin activated. "
+msgstr "Plugin aktivert"
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:171
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr "Forbindelse til lisens API server sviktet. Prøv igjen senere."
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:258
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"Lisensen kunne ikke deaktiveres. Benytt lisens deaktiveringefanen for å "
+"deaktivere lisensen før du aktiverer en ny lisens."
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:297
+msgid "Plugin license deactivated. "
+msgstr "Plugin lisens deaktivert "
+
+# @ woocommerce-gateway-nets
+#: am/admin/class-wc-api-manager-menu.php:365
+msgid "Deactivates an API License Key so it can be used on another blog."
+msgstr ""
+
+# @ api-manager-example
+#: am/am.php:202
+msgid "License Activation"
+msgstr ""
+
+# @ api-manager-example
+#: am/am.php:203
+msgid "License Deactivation"
+msgstr "LIsens deaktivering"
+
+# @ api-manager-example
+#: am/am.php:427
+#, php-format
+msgid ""
+"The %s API License Key has not been activated, so the plugin is inactive! "
+"%sClick here%s to activate the license key and the plugin."
+msgstr ""
+
+# @ api-manager-example
+#: am/am.php:446
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:385
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:400
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:415
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:430
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:445
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:460
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:475
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:490
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:505
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:520
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: am/classes/class-wc-plugin-update.php:535
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: js/jquery-ui.min.js:8
+msgid "'"
+msgstr "'"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:183
+msgid "Payment Logo"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:211
+msgid "Enable/Disable"
+msgstr "Aktiver/Deaktiver"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:213
+msgid "Enable Nets Payment Gateway"
+msgstr "Aktivér Nets Payment Gateway"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:217 woocommerce-gateway-nets.php:438
+#: woocommerce-gateway-nets.php:494
+msgid "Title"
+msgstr "Tittel"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:219
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dette styrer hvilken tittel brukeren ser i kassen."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:220
+msgid "Nets"
+msgstr "Nets"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:223
+msgid "Description"
+msgstr "Beskrivelse"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:225
+msgid "This controls the description which the user sees during checkout."
+msgstr "Dette styrer beskrivelsen kunden får i kassen."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:226
+msgid "Pay via nets using credit card or bank transfer."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:229
+msgid "Nets Merchant ID "
+msgstr "Nets Merchant ID "
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:231
+msgid ""
+"Please enter your nets Merchant ID; this is needed in order to take payment."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:235
+msgid "Nets Token"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:237
+msgid "Please enter your Nets Token."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:241
+msgid "Language"
+msgstr "Språk"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:252
+msgid ""
+"Set the language in which the page will be opened when the customer is "
+"redirected to nets."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:266
+msgid "Capture"
+msgstr "Hente"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:273
+msgid ""
+"<b>Auto Capture</b>: Enable nets auto Capture of Payment while order place;"
+"<br /><b>Auto Capture Admin </b>:  Enable nets auto Capture of Payment when "
+"order status complete."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:289
+msgid "Send name"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:291
+msgid "Send customers name to Nets along with the order information"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:295
+msgid "Test Mode"
+msgstr "Testmodus"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:297
+msgid "Enable nets Test Mode. "
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:301
+msgid "Debug"
+msgstr "Feilsøk"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:303
+msgid "Enable logging (<code>woocommerce/logs/nets.txt</code>)"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:307
+msgid "Display Logo With Description"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:309
+msgid "Display Gateway Logos on checkout Description"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:313
+msgid "Display Logo With Title"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:315
+msgid "Display Gateway Logos With Checkout Title"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:330
+msgid "Nets Payment Gateway"
+msgstr "Nets Payment Gateway"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:331
+msgid ""
+"Nets Payment Gateway works by redirecting user to Nets payment interface to "
+"complete the transaction."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:336
+msgid ""
+"Please add the following url to your Nets Admin page (epayment.nets.eu) by "
+"going to Options -> Callback settings:"
+msgstr ""
+"Vennligst logg inn og legg til følgende url på Nets Admin (epayment.nets."
+"eu). Gå til Options -> Callback settings:"
+
+#: woocommerce-gateway-nets.php:343
+msgid ""
+"Nets Payment Gateway highly recommends having an SSL Certificate (https) "
+"installed on the website."
+msgstr ""
+"Nets Payment Gateway anbefaler på det sterkeste at man har SSL Serfikat "
+"(https) installert på nettstedet."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:349
+#, php-format
+msgid ""
+"The Nets Payment Gatewway API License Key has not been activated! %sClick "
+"here%s to activate the license key and the plugin."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:359 woocommerce-gateway-nets.php:362
+msgid "NETS disabled"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:363
+msgid "NETS does not support your store currency."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:371
+msgid "Nets Payment Gateway Logo Upload"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:441
+msgid "File Upload Title"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:442
+msgid "File Upload Title Must be Required Field."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:447 woocommerce-gateway-nets.php:495
+msgid "Position"
+msgstr "Plassering"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:450
+msgid "File Upload Postion"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:451
+msgid ""
+"Define Position to Display on checkout page. Default will take 0 if you "
+"don't enter anything. Ex: 1,2,3 etc."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:456
+msgid "File Upload"
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:461
+msgid "Add files..."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:465
+msgid "Choose File"
+msgstr "Velg fil"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:466
+msgid ""
+"Its allow to upload 1MB file size and gif,jpeg,jpg,png extension image files."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:493
+msgid "Image"
+msgstr "Bilde"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:496
+msgid "Size"
+msgstr "Størrelse"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:497
+msgid "Action"
+msgstr "Handling"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:536
+msgid "Processing..."
+msgstr "Behandler"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:541
+msgid "Upload"
+msgstr "Last opp"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:544
+msgid "Cancel"
+msgstr "Avbryt"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:926 woocommerce-gateway-nets.php:1342
+msgid "Unable to authenticate merchant."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:946
+msgid "Nets is not configured properly, Please choose another payment method."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1017 woocommerce-gateway-nets.php:1874
+msgid "NETS subscription ID (panhash): "
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1338
+#, php-format
+msgid "Nets transaction ID: %s."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1346
+#, php-format
+msgid "Error when processing recurring payment: %s."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1405
+msgid "NETS payment completed. NETS transaction ID: "
+msgstr ""
+
+#: woocommerce-gateway-nets.php:1406
+msgid "Nets Customer Panhash id: "
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1423 woocommerce-gateway-nets.php:1500
+#: woocommerce-gateway-nets.php:1589
+msgid "Unable to make payment."
+msgstr "Kan ikke foreta betaling."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1555
+msgid "Unable to make payment, Auth Reg Comp Failure / insufficient funds."
+msgstr "Kan ikke gjennomføre betaling. Kontakt din kortutsteder."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1559
+msgid "Invalid card number."
+msgstr "Ugyldig kortnummer."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1562
+msgid "Transaction not found."
+msgstr "Finner ikke transakjon."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1565
+msgid "KID invalid or Field missing PAN."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1568
+msgid "Original transaction rejected."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1571
+msgid "Transaction already reversed."
+msgstr ""
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1574
+msgid "Internal failure."
+msgstr "Intern feil."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1583
+msgid "Refused by Issuer."
+msgstr "Avvist av kortutsteder."
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1586
+msgid "Denied by 3D Secure."
+msgstr "Avvist av 3D Secure"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1715
+msgid "NETS Payment Captured Done "
+msgstr "Nets betaling korttrekk gjennomført"
+
+# @ woocommerce-gateway-nets
+#: woocommerce-gateway-nets.php:1720
+msgid "Unable to make Capture :: "
+msgstr "Kunne ikke trekke på kort :"

@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Nets Payment Gateway v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-03-13 09:59:04+0000\n"
+"Last-Translator: admin <jensen@mediakoordinator.no>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: woocommerce-gateway-nets.php:90
+#@ woocommerce-gateway-nets
+msgid "Enable/Disable"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:92
+#@ woocommerce-gateway-nets
+msgid "Enable Nets Payment Gateway"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:96
+#@ woocommerce-gateway-nets
+msgid "Title"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:98
+#@ woocommerce-gateway-nets
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:99
+#@ woocommerce-gateway-nets
+msgid "Nets"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:102
+#@ woocommerce-gateway-nets
+msgid "Description"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:104
+#@ woocommerce-gateway-nets
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:105
+#@ woocommerce-gateway-nets
+msgid "Pay via nets using credit card or bank transfer."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:108
+#@ woocommerce-gateway-nets
+msgid "Nets Merchant ID "
+msgstr ""
+
+#: woocommerce-gateway-nets.php:110
+#@ woocommerce-gateway-nets
+msgid "Please enter your nets Merchant ID; this is needed in order to take payment."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:114
+#@ woocommerce-gateway-nets
+msgid "Nets Token"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:116
+#@ woocommerce-gateway-nets
+msgid "Please enter your Nets Token."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:120
+#@ woocommerce-gateway-nets
+msgid "Language"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:123
+#@ woocommerce-gateway-nets
+msgid "Set the language in which the page will be opened when the customer is redirected to nets."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:127
+#@ woocommerce-gateway-nets
+msgid "Test Mode"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:129
+#@ woocommerce-gateway-nets
+msgid "Enable nets Test Mode. "
+msgstr ""
+
+#: woocommerce-gateway-nets.php:133
+#@ woocommerce-gateway-nets
+msgid "Debug"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:135
+#@ woocommerce-gateway-nets
+msgid "Enable logging (<code>woocommerce/logs/nets.txt</code>)"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:151
+#@ woocommerce-gateway-nets
+msgid "Nets Payment Gatweway"
+msgstr ""
+
+#: woocommerce-gateway-nets.php:152
+#@ woocommerce-gateway-nets
+msgid "Nets Payment Gateway works by redirecting user to Nets payment interface to complete the transaction."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:164
+#@ woocommerce
+msgid "NETS does not support your store currency."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:322
+#@ woocommerce-gateway-nets
+msgid "Unable to authenticate merchant."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:341
+#@ woocommerce-gateway-nets
+msgid "Nets is not configured properly, Please choose another payment method."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:358
+#@ woocommerce-gateway-nets
+msgid "Thank you for your order, Unable to pay with NETS."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:410
+#@ woocommerce-gateway-nets
+msgid "Unable to make payment, as your transaction is cancelled."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:452
+#@ woocommerce-gateway-nets
+msgid "NETS payment completed. NETS transaction number: "
+msgstr ""
+
+#: woocommerce-gateway-nets.php:463
+#: woocommerce-gateway-nets.php:515
+#: woocommerce-gateway-nets.php:597
+#@ woocommerce-gateway-nets
+msgid "Unable to make payment."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:567
+#@ woocommerce-gateway-nets
+msgid "Unable to make payment, Auth Reg Comp Failure / insufficient funds."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:570
+#@ woocommerce-gateway-nets
+msgid "Invalid card number."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:573
+#@ woocommerce-gateway-nets
+msgid "Transaction not found."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:576
+#@ woocommerce-gateway-nets
+msgid "KID invalid or Field missing PAN."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:579
+#@ woocommerce-gateway-nets
+msgid "Original transaction rejected."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:582
+#@ woocommerce-gateway-nets
+msgid "Transaction already reversed."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:585
+#@ woocommerce-gateway-nets
+msgid "Internal failure."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:591
+#@ woocommerce-gateway-nets
+msgid "Refused by Issuer."
+msgstr ""
+
+#: woocommerce-gateway-nets.php:594
+#@ woocommerce-gateway-nets
+msgid "Denied by 3D Secure."
+msgstr ""
+

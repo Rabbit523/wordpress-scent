@@ -1,0 +1,1 @@
+a:4:{i:0;b:0;s:18:"nav_menu_locations";a:3:{s:9:"menu_main";i:6;s:11:"menu_footer";i:41;s:9:"menu_side";i:6;}s:14:"color_settings";s:6:"simple";s:18:"custom_css_post_id";i:-1;}

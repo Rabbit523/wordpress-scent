@@ -1,0 +1,690 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product-Import-Export-Basic\n"
+"POT-Creation-Date: 2016-10-28 12:35+0530\n"
+"PO-Revision-Date: 2016-10-28 12:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: HikeForce <support@hikeforce.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:/xampp/htdocs/basicwordpress/wp-content/plugins\n"
+"X-Poedit-SearchPath-0: product-import-export-for-woo\n"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-admin-screen.php:22
+msgid ""
+"Product CSV Import Export requires the function <code>mb_detect_encoding</"
+"code> to import and export CSV files. Please ask your hosting provider to "
+"enable this function."
+msgstr ""
+"Produkt CSV Import Export benötigt die Funktion <code>mb_detect_encoding</"
+"code> zum Importieren und Exportieren von CSV-Dateien. Bitte fragen Sie "
+"Ihren Hosting-Anbieter diese Funktion zu aktivieren."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-admin-screen.php:30
+msgid "Product Im-Ex"
+msgstr "Produkt Im-Ex"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-ajax-handler.php:36
+#, php-format
+msgid "Failed resize: %s is an invalid image ID."
+msgstr "Ändern der Bildgrößen fehlgeschlagen: %s ist keine gültige Bild ID"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-ajax-handler.php:39
+msgid "Your user account doesn't have permission to resize images"
+msgstr ""
+"Du hast nicht die erforderlichen Rechte für die Änderung der Bildgrößen."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-ajax-handler.php:44
+#, php-format
+msgid "The originally uploaded image file cannot be found at %s"
+msgstr "Das Originalbild kann unter %s nicht gefunden werden"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-ajax-handler.php:53
+msgid "Unknown failure reason."
+msgstr "Unbekannter Fehler."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-ajax-handler.php:58
+#, php-format
+msgid "&quot;%1$s&quot; (ID %2$s) was successfully resized in %3$s seconds."
+msgstr ""
+"&quot;%1$s&quot; (ID %2$s) wurde erfolgreich in %3$s Sekunden verkleinert."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-ajax-handler.php:65
+#, php-format
+msgid ""
+"&quot;%1$s&quot; (ID %2$s) failed to resize. The error message was: %3$s"
+msgstr ""
+"&quot;%1$s&quot; (ID %2$s) konnte nicht geändert werden. Die Fehlermeldung "
+"lautet: %3$s"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:22
+msgid "Delete Products"
+msgstr "Produkte löschen"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:23
+msgid "Delete ALL products"
+msgstr "Alle Artikel löschen"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:24
+msgid "This tool will delete all products allowing you to start fresh."
+msgstr ""
+"Dieses Tool löscht alle Produkte, so dass Sie Komplett neu beginnen können."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:28
+msgid "Delete Variations"
+msgstr "Alle Varianten löschen"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:29
+msgid "Delete ALL variations"
+msgstr "Alle Varianten löschen"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:30
+msgid "This tool will delete all variations allowing you to start fresh."
+msgstr ""
+"Dieses Tool löscht alle Variationen, so dass Sie Komplett neu beginnen "
+"können."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:34
+msgid "Delete Orphans"
+msgstr "Löschen von Waisen"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:35
+msgid "Delete orphaned variations"
+msgstr "Löschen verwaiste Variationen"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:36
+msgid "This tool will delete variations which have no parent."
+msgstr "Dieses Tool löscht Variationen, die keine Elternvariationen haben."
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:62
+#, php-format
+msgid "%d Products Deleted"
+msgstr "%d Produkte gelöscht"
+
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:84
+#: product-import-export-for-woo/includes/class-wf-prodimpexpcsv-system-status-tools.php:99
+#, php-format
+msgid "%d Variations Deleted"
+msgstr "%d Variationen gelöscht"
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:191
+#, php-format
+msgid "> Row %s - preparing for merge."
+msgstr "> Zeile %s - Seriendruck vorbereiten."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:196
+msgid "> > Cannot merge without id or sku. Importing instead."
+msgstr ""
+">> Ohne Ausweis oder Sku kann nicht zusammengeführt werden. Stattdessen "
+"werden importiert."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:214
+#, php-format
+msgid "> > Skipped. Cannot find product with sku %s. Importing instead."
+msgstr ""
+">> Übersprungen. Produkt mit Sku %s nicht finden stattdessen importieren."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:221
+#, php-format
+msgid "> > Found product with ID %s."
+msgstr ">> Gefunden Sie Produkt mit ID %s."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:232
+#, php-format
+msgid "> Row %s - preparing for import."
+msgstr "> Zeile %s - Vorbereitung für den Import."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:236
+msgid "> > Skipped. No post_title set for new product."
+msgstr ">> Übersprungen. Keine Post_title für neues Produkt festgelegt."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:237
+msgid "No post_title set for new product."
+msgstr "Keine Post_title für neues Produkt festgelegt."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:240
+msgid "> > Skipped. No parent set for new variation product."
+msgstr ""
+">> Übersprungen. Kein übergeordnetes Element für neue Variation Produkt "
+"festgelegt."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:242
+msgid "No parent set for new variation product."
+msgstr "Kein übergeordnetes Element für neue Variation Produkt festgelegt."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:433
+#, php-format
+msgid "> > Skipping taxonomy \"%s\" - it does not exist."
+msgstr ">> Überspringen Taxonomie \"%s\" - Es ist nicht vorhanden."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:442
+#, php-format
+msgid "> > > Product type \"%s\" not allowed - using simple."
+msgstr ">>> Produkt-Typ \"%s\" nicht erlaubt - mit einfachen."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:488
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:513
+msgid "> > ("
+msgstr "> > ("
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:553
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:651
+#, php-format
+msgid "> > Failed to import term %s %s"
+msgstr "Fehler beim Importieren von %s %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:602
+#, php-format
+msgid "> > Attribute taxonomy \"%s\" does not exist. Adding it. Nicename: %s"
+msgstr ""
+">> Attribut Taxonomie \"%s\" ist nicht vorhanden. Hinzufügen. Nicename: %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:610
+#, php-format
+msgid "> > Attribute taxonomy %s already exists in DB."
+msgstr ">> Attribut Taxonomie %s existiert bereits in DB."
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:649
+#, php-format
+msgid "> > Inserted Raw Term %s ID = %s"
+msgstr ">> Eingefügt rohen Begriff %s ID = %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-csv-parser.php:655
+#, php-format
+msgid "> > Raw Term %s ID = %s"
+msgstr ">> Roh Begriff %s ID = %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:82
+msgid "Error with handle_upload!"
+msgstr "Fehler mit Handle_upload!"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:107
+msgid "Row"
+msgstr "Zeile"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:108
+msgid "SKU"
+msgstr "SKU"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:109
+msgid "Product"
+msgstr "Produkt"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:110
+msgid "Status Msg"
+msgstr "Status Msg"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:203
+msgid "AJAX Error"
+msgstr "Ajax Fehler"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:303
+#, php-format
+msgid ""
+"The resize request was abnormally terminated (ID %s). This is likely due to "
+"the image exceeding available memory or some other type of fatal error."
+msgstr ""
+"Die Größenänderung wurde abgebrochen (ID %s). Dies ist wahrscheinlich auf zu "
+"wenig verfügbarem Speicher oder einen schwerwiegenden Fehler zurückzuführen."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:308
+msgid "thumbnails regenerated"
+msgstr "Miniaturansichten regeneriert"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:346
+msgid "Error finding uploaded file!"
+msgstr "Fehler beim suchen Datei hochgeladen!"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:411
+msgid "Step 1..."
+msgstr "1. Schritt"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:416
+msgid "Step 2..."
+msgstr "2. Schritt"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:431
+msgid "Finalizing..."
+msgstr "Finalisierung"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:437
+msgid "Linking upsells..."
+msgstr "Upsells verknüpft..."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:446
+msgid "Linking crosssells..."
+msgstr "Verknüpfen Crosssells..."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:453
+msgid "Finished. Import complete."
+msgstr "Fertig. Import abgeschlossen."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:513
+msgid "Map to fields are pre-selected based on your last import. <a href=\""
+msgstr ""
+"Karte, um Felder sind vorausgewählt, basierend auf Ihren letzten Import. < "
+"ein Href = \""
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:546
+msgid "Processing products."
+msgstr "Verarbeitung von Produkten."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:558
+msgid "Finished processing products."
+msgstr "Produkte verarbeitet."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:573
+msgid "Parsing products CSV."
+msgstr "Parsen Produkte CSV."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:579
+msgid "Finished parsing products CSV."
+msgstr "Parsing Fertigprodukte CSV."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:621
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:638
+msgid "Sorry, there has been an error."
+msgstr "Leider ist ein Fehler aufgetreten."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:728
+msgid "Product already processed"
+msgstr "Produkt bereits verarbeitet"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:729
+msgid "> Post ID already processed. Skipping."
+msgstr "> Post ID bereits verarbeitet. Wird übersprungen."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:735
+msgid "Skipping auto-draft"
+msgstr "Überspringen von Auto-Entwurf"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:736
+msgid "> Skipping auto-draft."
+msgstr "> Überspringen Auto-Entwurf."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:750
+#, php-format
+msgid "> &#8220;%s&#8221;"
+msgstr "> &#8220; %s &#8221;"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:756
+msgid "Importing post ID conflicts with an existing post ID"
+msgstr ""
+"Post-ID verursacht einen Konflikt mit einer vorhandenen Post-ID importieren"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:757
+#, php-format
+msgid "> &#8220;%s&#8221; ID already exists."
+msgstr "> &#8220; %s &#8221; ID bereits vorhanden ist."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:765
+msgid "Post is not a product"
+msgstr "Post ist kein Produkt"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:766
+#, php-format
+msgid "> &#8220;%s&#8221; is not a product."
+msgstr "> &#8220; %s &#8221; ist kein Produkt."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:776
+#, php-format
+msgid "> Merging post ID %s."
+msgstr "> Post-ID %s zusammenführen."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:839
+msgid "Failed to update product"
+msgstr "Fehler beim Aktualisieren der Produkt"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:840
+#, php-format
+msgid "> Failed to update product %s"
+msgstr "> Fehler beim Aktualisieren der Produkt %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:844
+msgid "> Merged post data: "
+msgstr "> Fusioniert post Daten:"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:873
+#, php-format
+msgid "> Inserting %s"
+msgstr "> Einfügen von %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:895
+msgid "Failed to import product"
+msgstr "Fehler beim Importieren von Produkt"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:896
+#, php-format
+msgid "Failed to import product &#8220;%s&#8221;"
+msgstr "Fehler beim Importieren von Produkt &#8220; %s &#8221;"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:902
+#, php-format
+msgid "> Inserted - post ID is %s."
+msgstr "> Beitrags-ID ist eingefügt - ' %s'."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1000
+#, php-format
+msgid "> > Image exists - skipping %s"
+msgstr ">> Bild existiert - überspringen von %s"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1030
+#, php-format
+msgid "> > Importing image \"%s\""
+msgstr ">> Import von Bild \"%s\""
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1045
+#, php-format
+msgid "> > Imported image \"%s\""
+msgstr ">> Importierten Bildes \"%s\""
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1060
+#, php-format
+msgid "> > Error importing image \"%s\""
+msgstr ">> Fehler beim Importieren von Bild \"%s\""
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1067
+msgid "> > Images set"
+msgstr ">> Bilder"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1120
+#, php-format
+msgid "> Finished merging post ID %s."
+msgstr "> Zusammenführen von Post-ID %s beendet."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1123
+#, php-format
+msgid "> Finished importing post ID %s."
+msgstr "> Importieren Post ID %s beendet."
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1189
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1213
+msgid "Invalid file type"
+msgstr "Ungültiger Dateityp"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1196
+msgid "Local image did not exist!"
+msgstr "Lokales Bild gab es nicht!"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1226
+#, php-format
+msgid "> > Inserted image attachment \"%s\""
+msgstr ">> Anlage eingefügte Bild \"%s\""
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1291
+msgid "Zero size file downloaded"
+msgstr "Datei ohne Inhalt heruntergeladen"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1405
+msgid "Import"
+msgstr "Importieren"
+
+#: product-import-export-for-woo/includes/importer/class-wf-prodimpexpcsv-product-import.php:1405
+msgid "Merge Products"
+msgstr "Produkte zusammenführen"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:20
+msgid ""
+"You can import products (in CSV format) in to the shop using any of below "
+"methods."
+msgstr ""
+"Sie können Produkte (im CSV-Format) in den Shop mit einer der folgenden "
+"Methoden importieren."
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:23
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Bevor Sie Ihre Importdatei hochladen können, müssen Sie folgenden Fehler "
+"beheben:"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:31
+msgid "Method 1: Select a file from your computer"
+msgstr "Methode 1: Wählen Sie eine Datei von Ihrem computer"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:37
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maximale Größe: %s"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:41
+msgid "Delimiter"
+msgstr "Trennzeichen"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:45
+msgid "Merge empty cells"
+msgstr "Leere Zellen zusammenführen"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-greeting.php:46
+msgid ""
+"Check this box to merge empty cells - otherwise (when merging) the empty "
+"cells will be ignored when importing things such as attributes."
+msgstr ""
+"Aktivieren Sie dieses Kontrollkästchen, um leere Zellen - ansonsten "
+"zusammenzuführen (beim Zusammenführen) die leeren Zellen werden ignoriert, "
+"wenn Dinge wie importieren Attribute."
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:7
+msgid "Map Fields"
+msgstr "Karte Felder"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:8
+msgid "Here you can map your imported columns to product data fields."
+msgstr ""
+"Hier können Sie Ihre importierten Spalten Produkt Datenfelder zuordnen."
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:12
+msgid "Map to"
+msgstr "map to, to"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:13
+msgid "Column Header"
+msgstr "Spaltenkopf"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:14
+msgid "Evaluation Field"
+msgstr "Bewertung-Feld"
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:16
+msgid ""
+"Assign constant value HikeFoce to post_author:</br>=HikeFoce</br>Add $5 to "
+"Price:sale_price:</br>+5</br>Reduce $5 to Price:sale_price:</br>-5</"
+"br>Multiple 1.05 to Price:sale_price:</br>*1.05</br>Divide Price:sale_price "
+"by 2:</br>/2</br>Append a value By HikeFoce to post_title:</br>&By HikeFoce</"
+"br>Prepend a value HikeFoce to post_title:</br>&HikeFoce [VAL]."
+msgstr ""
+"Post_author Konstantenwert HikeFoce zuweisen:<br>= HikeFoce</br>Preis: "
+"Sale_price $5 hinzufügen:<br>+ 5</br>Reduzieren Sie $5, Preis: Sale_price:"
+"<br>-5</br>Mehreren 1.05, Preis: Sale_price:<br>* 1,05</br>Dividieren Sie "
+"Preis: Sale_price durch 2:<br>/ 2</br>Fügen Sie einen Wert von HikeFoce an "
+"Post_title:<br>& Durch HikeFoce</br>Einen Wert HikeFoce Post_title "
+"voranstellen:<br>& HikeFoce [VAL]."
+
+#: product-import-export-for-woo/includes/importer/views/html-wf-import-options.php:95
+msgid "Do not import"
+msgstr "Nicht importieren"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:2
+msgid "Export Product in CSV Format:"
+msgstr "Exportieren Sie Produkt im CSV-Format:"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:3
+msgid ""
+"Export and download your products in CSV format. This file can be used to "
+"import products back into your Woocommerce shop."
+msgstr ""
+"Exportieren Sie und herunterladen Sie Ihre Produkte im CSV-Format. Diese "
+"Datei kann verwendet werden, waren wieder in Ihrem Woocommerce Shop zu "
+"importieren."
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:9
+msgid "Offset"
+msgstr "Mitarbeiter überspringen"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:12
+msgid "0"
+msgstr "0"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:17
+msgid "Limit"
+msgstr "Limit"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:20
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:25
+msgid "Columns"
+msgstr "Spalten"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:29
+msgid "Column"
+msgstr "Spalte"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:32
+msgid "Column Name"
+msgstr "Spaltenname"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:65
+msgid "Include hidden meta data"
+msgstr "Versteckte Metadaten enthalten"
+
+#: product-import-export-for-woo/includes/views/export/html-wf-export-products.php:72
+msgid "Export Products"
+msgstr "Exportprodukte"
+
+#: product-import-export-for-woo/includes/views/html-wf-admin-screen.php:4
+msgid "Product Import / Export"
+msgstr "Produktimport / Export"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:4
+msgid "Your Business is precious! Go Premium!"
+msgstr "Ihr Geschäft ist kostbar! Go Premium-!"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:5
+msgid ""
+"HikeForce Import Export Plugin Premium version helps you to seamlessly "
+"import/export products into your Woocommerce Store."
+msgstr ""
+"HikeForce Import Export Plugin Premium-Version können Sie nahtlos zu "
+"importieren / exportieren Produkte in den WooCommerce Store."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:6
+msgid ""
+"- Export Products (Simple, Group, External and Variations) in to a CSV file "
+"<strong>( Basic version supports only Simple Products )</strong>."
+msgstr ""
+"-Exportieren Sie Produkte (einfache, Gruppe, extern und Variationen) in eine "
+"CSV-Datei <strong>(Basis-Version unterstützt nur einfache Produkte)</strong>."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:7
+msgid ""
+"- Import Products (Simple, Group, External and Variations) in CSV format in "
+"to WooComemrce Store."
+msgstr ""
+"-Importieren Sie Produkte (einfache, Gruppe, extern und Variationen) im CSV-"
+"Format im WooComemrce Store."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:8
+msgid "- Export Products by Category."
+msgstr "-Export der Produkte nach Kategorie."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:9
+msgid "- Various Filter options for exporting Products."
+msgstr "- Verschiedene Filteroptionen für Produkte zu exportieren."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:10
+msgid "- Map and Transform fields while Importing Products."
+msgstr "-Karte und Felder beim importieren Produkte zu verwandeln."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:11
+msgid "- Change values while improting products using Evaluation Fields."
+msgstr "-Ändern Sie Werte und Improting Produkte mit Bewertung Felder."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:12
+msgid "- Choice to Update or Skip existing imported products."
+msgstr ""
+"- Wahl zu aktualisieren oder zu überspringen bestehenden importierte "
+"Produkte."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:13
+msgid ""
+"- WPML Supported. French and German (Deutschland) language support Out of "
+"the Box."
+msgstr ""
+"- WPML unterstützt. Französisch und Deutsch (Deutschland) "
+"Sprachunterstützung Out of the Box."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:14
+msgid "- Import/Export file from/to a remote server via FTP."
+msgstr "-Datei Import/Export von/zu einem remote-Server per FTP."
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:15
+msgid "- Excellent Support for setting it up!"
+msgstr "-Hervorragende Unterstützung für sie eingerichtet!"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:19
+msgid "Upgrade to Premium Version"
+msgstr "Upgrade auf Premium-Version"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:20
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:21
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:22
+msgid "Sample Commercial CSV"
+msgstr "Probe kommerzielle CSV"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:23
+msgid "Sample WooCommerce CSV"
+msgstr "Probe WooCommerce CSV"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:35
+msgid "Import Products in CSV Format:"
+msgstr "Produkte im CSV-Format zu importieren:"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:36
+msgid ""
+"Import products in CSV format ( works for simple products)  from different "
+"sources"
+msgstr ""
+"Importieren Sie Produkte im CSV-Format (funktioniert für einfache Produkte) "
+"aus verschiedenen Quellen"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:42
+msgid "Import Products"
+msgstr "IMPORT PRODUKTE"
+
+#: product-import-export-for-woo/includes/views/import/html-wf-import-products.php:44
+msgid "Merge products if exists"
+msgstr "Produkte zu verschmelzen, wenn vorhanden"
+
+#: product-import-export-for-woo/product-csv-import-export.php:54
+msgid "Import Export"
+msgstr "Importieren/ Exportieren"
+
+#: product-import-export-for-woo/product-csv-import-export.php:55
+msgid "Premium Upgrade"
+msgstr "Premium-Upgrade"
+
+#: product-import-export-for-woo/product-csv-import-export.php:56
+msgid "Support"
+msgstr "Unterstützung"
+
+#: product-import-export-for-woo/product-csv-import-export.php:110
+msgid "Import <strong>products</strong> to your store via a csv file."
+msgstr ""
+"Importieren Sie <strong>Produkte</strong> in Ihrem Geschäft über eine Csv-"
+"Datei."
+
+#~ msgid "Successfully uploaded via FTP."
+#~ msgstr "Avec succès téléchargé via FTP."

@@ -1,0 +1,55 @@
+*** Nets Woocommerce Gateway Changelog ***
+
+22.03.2018 - v0.6.1
+* Feature - Force TLS 1.2, Netaxept forces this after the 20th of april 2018
+
+22.03.2018 - v0.6
+* Feature - Adds payment method to post meta as: <wallet>/<method> or just <method> depending on wheter a wallet based method was used
+* Note - Stable
+
+9.03.2018 - v0.5.5
+* Feature - Autocomplete works with vipps!
+* Patch - Returnflow after terminal phase only calls capture once - this avoids warnings in nets admin
+
+
+9.01.2018 - v0.5.4
+* Patch - Fixed typo from 0.5.3:  ist -> isset
+
+7.01.2018 - v0.5.3
+* Feature - Added support for the Woo Custom and Sequential Order Number plugin
+
+6.12.2017 - v0.5.2
+* Patch - Specified stativ methods for the classes WC_nets_nets and WC_nets_vipps
+
+11.11.2017 - v0.5.1
+* Patch - Added shipping line to goods list for relevant orders (those with shipping)
+
+7.11.2017 - v0.5
+* Feature - Nets Vipps Instant
+* Change - Class structure; WC_nets is now a super class only
+
+20.10.2017 - v0.4.6
+* Patch - More tax/discount fixes
+* Change - Reworked the internal payment flow: removed woocommerce_receipt_nets hook
+
+17.10.2017 - v0.4.5
+* Feature - MVA with coupons/discounts, experimental
+* Feature - Send appropriate tax class in goods list
+* Patch - Fixed texts in settings pane for: checkout logos, extra info for: capture setting and test mode.
+
+12.10.2017 - v0.4.4
+* Patch - for MVA in goods list, experimental
+
+10.10.2017 - v0.4.3
+* Feature -  invoices for recurring payments
+
+7.10.2017 - v0.4.2
+* Feature - invoices for non-recurring payments
+
+7.10.2017 - v0.4.1
+* Feature - Logos and logo selection4.8.2017 - version 0.4.0
+* Patch - Errors with payments and recurring/easy payments
+* Feature - Added support for subscriptions
+
+4.8.2017 - v0.1.0
+* Initial port of original code
